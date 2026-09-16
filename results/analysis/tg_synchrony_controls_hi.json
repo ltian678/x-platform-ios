@@ -1,0 +1,905 @@
+{
+ "yemen_media_comp2": {
+  "n": 26,
+  "dominant_script": "arabic",
+  "observed": {
+   "10min": {
+    "n_accounts": 26,
+    "n_weeks": 47,
+    "var_ratio": 1.393,
+    "var_z": 25.9,
+    "copost_excess_ratio": 1.223,
+    "copost_z": 25.9
+   },
+   "1min": {
+    "n_accounts": 26,
+    "n_weeks": 47,
+    "var_ratio": 1.23,
+    "var_z": 31.7,
+    "copost_excess_ratio": 1.432,
+    "copost_z": 31.7
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1136,
+    "10min": {
+     "mean": 1.011,
+     "sd": 0.033,
+     "z": 11.58
+    },
+    "1min": {
+     "mean": 1.005,
+     "sd": 0.017,
+     "z": 13.24
+    }
+   },
+   "political_only": {
+    "n_pool": 251,
+    "10min": {
+     "mean": 1.081,
+     "sd": 0.039,
+     "z": 8.0
+    },
+    "1min": {
+     "mean": 1.02,
+     "sd": 0.009,
+     "z": 23.33
+    }
+   },
+   "script_arabic_only": {
+    "n_pool": 249,
+    "10min": {
+     "mean": 1.153,
+     "sd": 0.045,
+     "z": 5.33
+    },
+    "1min": {
+     "mean": 1.043,
+     "sd": 0.014,
+     "z": 13.36
+    }
+   },
+   "political_and_arabic": {
+    "n_pool": 19,
+    "10min": {
+     "mean": 1.168,
+     "sd": 0.031,
+     "z": 7.26
+    },
+    "1min": {
+     "mean": 1.045,
+     "sd": 0.01,
+     "z": 18.5
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 1.814,
+   "n_within_pairs": 325,
+   "cluster_to_matched_outside": 1.679,
+   "n_cross_pairs": 494,
+   "n_outside": 19
+  },
+  "leadlag": [
+   {
+    "channel": "1004171705",
+    "title": "كتائب الشهيد عز الدين القسام",
+    "username": "qassambrigades",
+    "n_posts": 1565,
+    "coincidence_rate": 0.3836,
+    "lead_fraction": 0.567,
+    "median_lag_s": 20.0
+   },
+   {
+    "channel": "1212004403",
+    "title": "حالات وتصاميم جهادية",
+    "username": "nbrasalsma",
+    "n_posts": 43,
+    "coincidence_rate": 0.4223,
+    "lead_fraction": 0.537,
+    "median_lag_s": 3.5
+   },
+   {
+    "channel": "1048208601",
+    "title": "الإعلام الحربي - التغطية الإخب",
+    "username": "C_Military1",
+    "n_posts": 19133,
+    "coincidence_rate": 0.2914,
+    "lead_fraction": 0.533,
+    "median_lag_s": 9.0
+   },
+   {
+    "channel": "1019055339",
+    "title": "متابعات اخبارية",
+    "username": "followupnews",
+    "n_posts": 18551,
+    "coincidence_rate": 0.426,
+    "lead_fraction": 0.521,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1009917679",
+    "title": "غرباء برس (أخبار)",
+    "username": "StrangersPress",
+    "n_posts": 16975,
+    "coincidence_rate": 0.4228,
+    "lead_fraction": 0.519,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1026211102",
+    "title": "الإعلام الحربي اليمني | M M Y",
+    "username": "MilitaryMediaY",
+    "n_posts": 2833,
+    "coincidence_rate": 0.4111,
+    "lead_fraction": 0.519,
+    "median_lag_s": 4.0
+   },
+   {
+    "channel": "1012802627",
+    "title": "قناة الأخبار المحلية والعالمية",
+    "username": "BSpress",
+    "n_posts": 18357,
+    "coincidence_rate": 0.4269,
+    "lead_fraction": 0.518,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1091752075",
+    "title": "اخبار الميدان اليمني",
+    "username": "Almiddan",
+    "n_posts": 17310,
+    "coincidence_rate": 0.4301,
+    "lead_fraction": 0.517,
+    "median_lag_s": 0.0
+   }
+  ]
+ },
+ "iran_agency_comp3": {
+  "n": 21,
+  "dominant_script": "persian",
+  "observed": {
+   "10min": {
+    "n_accounts": 21,
+    "n_weeks": 47,
+    "var_ratio": 1.469,
+    "var_z": 40.9,
+    "copost_excess_ratio": 1.231,
+    "copost_z": 40.9
+   },
+   "1min": {
+    "n_accounts": 21,
+    "n_weeks": 47,
+    "var_ratio": 1.097,
+    "var_z": 32.8,
+    "copost_excess_ratio": 1.228,
+    "copost_z": 32.8
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1141,
+    "10min": {
+     "mean": 1.005,
+     "sd": 0.038,
+     "z": 12.21
+    },
+    "1min": {
+     "mean": 1.002,
+     "sd": 0.021,
+     "z": 4.52
+    }
+   },
+   "political_only": {
+    "n_pool": 265,
+    "10min": {
+     "mean": 1.094,
+     "sd": 0.052,
+     "z": 7.21
+    },
+    "1min": {
+     "mean": 1.029,
+     "sd": 0.018,
+     "z": 3.78
+    }
+   },
+   "script_persian_only": {
+    "n_pool": 40,
+    "10min": {
+     "mean": 0.989,
+     "sd": 0.002,
+     "z": 240.0
+    },
+    "1min": {
+     "mean": 0.994,
+     "sd": 0.001,
+     "z": 103.0
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 1.426,
+   "n_within_pairs": 210,
+   "cluster_to_matched_outside": 1.325,
+   "n_cross_pairs": 105,
+   "n_outside": 5
+  },
+  "leadlag": [
+   {
+    "channel": "1001976122",
+    "title": "خبرگزاری تسنیم",
+    "username": "Tasnimnews",
+    "n_posts": 43756,
+    "coincidence_rate": 0.4057,
+    "lead_fraction": 0.504,
+    "median_lag_s": 1.0
+   },
+   {
+    "channel": "1006212930",
+    "title": "SNN.ir|خبرگزاری دانشجو",
+    "username": "snntv",
+    "n_posts": 54236,
+    "coincidence_rate": 0.3929,
+    "lead_fraction": 0.504,
+    "median_lag_s": 1.0
+   },
+   {
+    "channel": "1001326498",
+    "title": "تحولات منطقه",
+    "username": "Tahavolatemantaghe",
+    "n_posts": 27052,
+    "coincidence_rate": 0.4134,
+    "lead_fraction": 0.504,
+    "median_lag_s": 1.0
+   },
+   {
+    "channel": "1006165084",
+    "title": "🎬 بیسیمچی مدیا",
+    "username": "BisimchiMedia",
+    "n_posts": 17874,
+    "coincidence_rate": 0.4464,
+    "lead_fraction": 0.502,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1003559987",
+    "title": "اطلاعات نظامى🇮🇷MILITARY INFO",
+    "username": "MILITARYINFO",
+    "n_posts": 3075,
+    "coincidence_rate": 0.4784,
+    "lead_fraction": 0.501,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1005665139",
+    "title": "ایسنا",
+    "username": "isna94",
+    "n_posts": 33693,
+    "coincidence_rate": 0.3852,
+    "lead_fraction": 0.501,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1068487996",
+    "title": "خبرگزاری ایرنا",
+    "username": "irna_1313",
+    "n_posts": 38112,
+    "coincidence_rate": 0.398,
+    "lead_fraction": 0.5,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1008407570",
+    "title": "Partisan / پارتیزان",
+    "username": "partisan2015",
+    "n_posts": 10384,
+    "coincidence_rate": 0.4435,
+    "lead_fraction": 0.5,
+    "median_lag_s": 0.0
+   }
+  ]
+ },
+ "arabic_content_comp4": {
+  "n": 13,
+  "dominant_script": "arabic",
+  "observed": {
+   "10min": {
+    "n_accounts": 13,
+    "n_weeks": 47,
+    "var_ratio": 1.045,
+    "var_z": 6.5,
+    "copost_excess_ratio": 2.452,
+    "copost_z": 6.5
+   },
+   "1min": {
+    "n_accounts": 13,
+    "n_weeks": 47,
+    "var_ratio": 1.004,
+    "var_z": 2.1,
+    "copost_excess_ratio": 1.806,
+    "copost_z": 2.1
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1149,
+    "10min": {
+     "mean": 1.002,
+     "sd": 0.014,
+     "z": 3.07
+    },
+    "1min": {
+     "mean": 1.001,
+     "sd": 0.008,
+     "z": 0.38
+    }
+   },
+   "political_only": {
+    "n_pool": 274,
+    "10min": {
+     "mean": 1.014,
+     "sd": 0.032,
+     "z": 0.97
+    },
+    "1min": {
+     "mean": 1.002,
+     "sd": 0.011,
+     "z": 0.18
+    }
+   },
+   "script_arabic_only": {
+    "n_pool": 262,
+    "10min": {
+     "mean": 1.014,
+     "sd": 0.027,
+     "z": 1.15
+    },
+    "1min": {
+     "mean": 1.011,
+     "sd": 0.028,
+     "z": -0.25
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 3.632,
+   "n_within_pairs": 78,
+   "cluster_to_matched_outside": 1.296,
+   "n_cross_pairs": 546,
+   "n_outside": 42
+  },
+  "leadlag": [
+   {
+    "channel": "1006335141",
+    "title": "تفسير السعدي",
+    "username": "Tafseer2alSadi",
+    "n_posts": 1256,
+    "coincidence_rate": 0.0413,
+    "lead_fraction": 0.865,
+    "median_lag_s": 343.0
+   },
+   {
+    "channel": "1092945604",
+    "title": "روائع الفيديو",
+    "username": "Thamar15",
+    "n_posts": 1326,
+    "coincidence_rate": 0.03,
+    "lead_fraction": 0.73,
+    "median_lag_s": 137.0
+   },
+   {
+    "channel": "1046630354",
+    "title": "أقوال من ذهب✍",
+    "username": "Thamar21",
+    "n_posts": 430,
+    "coincidence_rate": 0.0541,
+    "lead_fraction": 0.71,
+    "median_lag_s": 145.0
+   },
+   {
+    "channel": "1074694764",
+    "title": "💊🩺 طبيب 🩺💊",
+    "username": "tabibgroup",
+    "n_posts": 620,
+    "coincidence_rate": 0.0332,
+    "lead_fraction": 0.559,
+    "median_lag_s": 67.0
+   },
+   {
+    "channel": "1089146230",
+    "title": "مطبخ البيت السعيد",
+    "username": "thamar5850",
+    "n_posts": 637,
+    "coincidence_rate": 0.0281,
+    "lead_fraction": 0.488,
+    "median_lag_s": -12.0
+   },
+   {
+    "channel": "1057559966",
+    "title": "المكتبة الذهبية",
+    "username": "PDFnew",
+    "n_posts": 4474,
+    "coincidence_rate": 0.0065,
+    "lead_fraction": 0.469,
+    "median_lag_s": -18.5
+   },
+   {
+    "channel": "1011052149",
+    "title": "تعلم الإنجليزية",
+    "username": "English_201",
+    "n_posts": 708,
+    "coincidence_rate": 0.0292,
+    "lead_fraction": 0.431,
+    "median_lag_s": -67.5
+   },
+   {
+    "channel": "1091090757",
+    "title": "📝رقة قــلـ✏ـم📝",
+    "username": "aaaqa3",
+    "n_posts": 432,
+    "coincidence_rate": 0.032,
+    "lead_fraction": 0.428,
+    "median_lag_s": -146.0
+   }
+  ]
+ },
+ "crypto_ads_louvain4": {
+  "n": 20,
+  "dominant_script": "cyrillic",
+  "observed": {
+   "10min": {
+    "n_accounts": 20,
+    "n_weeks": 47,
+    "var_ratio": 1.483,
+    "var_z": 3.0,
+    "copost_excess_ratio": 1.39,
+    "copost_z": 3.0
+   },
+   "1min": {
+    "n_accounts": 20,
+    "n_weeks": 47,
+    "var_ratio": 1.293,
+    "var_z": 3.1,
+    "copost_excess_ratio": 1.393,
+    "copost_z": 3.1
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1142,
+    "10min": {
+     "mean": 1.021,
+     "sd": 0.037,
+     "z": 12.49
+    },
+    "1min": {
+     "mean": 1.013,
+     "sd": 0.023,
+     "z": 12.17
+    }
+   },
+   "political_only": {
+    "n_pool": 274,
+    "10min": {
+     "mean": 1.146,
+     "sd": 0.041,
+     "z": 8.22
+    },
+    "1min": {
+     "mean": 1.052,
+     "sd": 0.017,
+     "z": 14.18
+    }
+   },
+   "script_cyrillic_only": {
+    "n_pool": 363,
+    "10min": {
+     "mean": 1.017,
+     "sd": 0.022,
+     "z": 21.18
+    },
+    "1min": {
+     "mean": 1.01,
+     "sd": 0.013,
+     "z": 21.77
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 1.255,
+   "n_within_pairs": 190,
+   "cluster_to_matched_outside": 1.05,
+   "n_cross_pairs": 1200,
+   "n_outside": 60
+  },
+  "leadlag": [
+   {
+    "channel": "1068093727",
+    "title": "БРЯНСК-ЧАТ",
+    "username": "chat_bryansk",
+    "n_posts": 18005,
+    "coincidence_rate": 0.5809,
+    "lead_fraction": 0.511,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1201311670",
+    "title": "Piar chat ВП",
+    "username": "pi4ar",
+    "n_posts": 35860,
+    "coincidence_rate": 0.6271,
+    "lead_fraction": 0.51,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1212563658",
+    "title": "UZBEK IMMIGRANT USA",
+    "username": "uzbek_immigrant_usa",
+    "n_posts": 102106,
+    "coincidence_rate": 0.494,
+    "lead_fraction": 0.508,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1055908983",
+    "title": "Горбушка чат⚜️",
+    "username": "gorbushka_77",
+    "n_posts": 565114,
+    "coincidence_rate": 0.5947,
+    "lead_fraction": 0.507,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1211279387",
+    "title": "PIAR - BOOM",
+    "username": "piarumis",
+    "n_posts": 33244,
+    "coincidence_rate": 0.6277,
+    "lead_fraction": 0.506,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1211892913",
+    "title": "Флудим о чем хотим)) Сыктывкар",
+    "username": "FludilkaUkhta",
+    "n_posts": 84783,
+    "coincidence_rate": 0.5235,
+    "lead_fraction": 0.506,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1208390887",
+    "title": "ГОРБУШКА МОСКВА",
+    "username": "gorbushka_moskva",
+    "n_posts": 129094,
+    "coincidence_rate": 0.5463,
+    "lead_fraction": 0.506,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1202202928",
+    "title": "California Lasvegas night chat",
+    "username": "California_Lasvegas_Newyork_chat",
+    "n_posts": 130520,
+    "coincidence_rate": 0.4906,
+    "lead_fraction": 0.505,
+    "median_lag_s": 0.0
+   }
+  ]
+ },
+ "promo_exchange_louvain5": {
+  "n": 10,
+  "dominant_script": "latin",
+  "observed": {
+   "10min": {
+    "n_accounts": 10,
+    "n_weeks": 47,
+    "var_ratio": 1.371,
+    "var_z": 2.6,
+    "copost_excess_ratio": 1.425,
+    "copost_z": 2.6
+   },
+   "1min": {
+    "n_accounts": 10,
+    "n_weeks": 47,
+    "var_ratio": 1.179,
+    "var_z": 3.7,
+    "copost_excess_ratio": 1.604,
+    "copost_z": 3.7
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1152,
+    "10min": {
+     "mean": 1.006,
+     "sd": 0.043,
+     "z": 8.49
+    },
+    "1min": {
+     "mean": 1.001,
+     "sd": 0.021,
+     "z": 8.48
+    }
+   },
+   "political_only": {
+    "n_pool": 274,
+    "10min": {
+     "mean": 1.063,
+     "sd": 0.046,
+     "z": 6.7
+    },
+    "1min": {
+     "mean": 1.017,
+     "sd": 0.016,
+     "z": 10.13
+    }
+   },
+   "script_latin_only": {
+    "n_pool": 434,
+    "10min": {
+     "mean": 1.005,
+     "sd": 0.029,
+     "z": 12.62
+    },
+    "1min": {
+     "mean": 1.003,
+     "sd": 0.015,
+     "z": 11.73
+    }
+   },
+   "political_and_latin": {
+    "n_pool": 122,
+    "10min": {
+     "mean": 1.032,
+     "sd": 0.089,
+     "z": 3.81
+    },
+    "1min": {
+     "mean": 1.006,
+     "sd": 0.017,
+     "z": 10.18
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 1.714,
+   "n_within_pairs": 45,
+   "cluster_to_matched_outside": 0.948,
+   "n_cross_pairs": 600,
+   "n_outside": 60
+  },
+  "leadlag": [
+   {
+    "channel": "1201326845",
+    "title": "Crypto Spam",
+    "username": "linksfree66",
+    "n_posts": 23614,
+    "coincidence_rate": 0.4925,
+    "lead_fraction": 0.517,
+    "median_lag_s": 3.0
+   },
+   {
+    "channel": "1051542730",
+    "title": "تبلیغاتی ساسان 2",
+    "username": "SasanGp2",
+    "n_posts": 2699,
+    "coincidence_rate": 0.3868,
+    "lead_fraction": 0.511,
+    "median_lag_s": 3.0
+   },
+   {
+    "channel": "1072723865",
+    "title": "●ListaGram●",
+    "username": "Listagram",
+    "n_posts": 65345,
+    "coincidence_rate": 0.3056,
+    "lead_fraction": 0.506,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1209753890",
+    "title": "PancakeSwap Baby",
+    "username": "cryptofreelink1",
+    "n_posts": 21635,
+    "coincidence_rate": 0.5374,
+    "lead_fraction": 0.505,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1207240215",
+    "title": "PONZI WEB 🥇",
+    "username": "ponziweb",
+    "n_posts": 15133,
+    "coincidence_rate": 0.4785,
+    "lead_fraction": 0.503,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1205415998",
+    "title": "ОПТОВИЩЕ💨",
+    "username": "optovisheee",
+    "n_posts": 32896,
+    "coincidence_rate": 0.4335,
+    "lead_fraction": 0.502,
+    "median_lag_s": 0.0
+   },
+   {
+    "channel": "1202469368",
+    "title": "آگهی رایگان کل ایران",
+    "username": "kole_irane",
+    "n_posts": 32057,
+    "coincidence_rate": 0.4126,
+    "lead_fraction": 0.5,
+    "median_lag_s": -1.0
+   },
+   {
+    "channel": "1075473379",
+    "title": "ℹTelePubliGramℹ",
+    "username": "TelepubliGram",
+    "n_posts": 825,
+    "coincidence_rate": 0.6688,
+    "lead_fraction": 0.498,
+    "median_lag_s": -1.0
+   }
+  ]
+ },
+ "political_and_coordinated": {
+  "n": 154,
+  "dominant_script": "cyrillic",
+  "observed": {
+   "10min": {
+    "n_accounts": 154,
+    "n_weeks": 47,
+    "var_ratio": 1.235,
+    "var_z": 22.3,
+    "copost_excess_ratio": 1.06,
+    "copost_z": 22.3
+   },
+   "1min": {
+    "n_accounts": 154,
+    "n_weeks": 47,
+    "var_ratio": 1.131,
+    "var_z": 28.2,
+    "copost_excess_ratio": 1.094,
+    "copost_z": 28.2
+   }
+  },
+  "controls": {
+   "any_volume_matched": {
+    "n_pool": 1008,
+    "10min": {
+     "mean": 1.017,
+     "sd": 0.076,
+     "z": 2.87
+    },
+    "1min": {
+     "mean": 1.01,
+     "sd": 0.054,
+     "z": 2.24
+    }
+   },
+   "political_only": {
+    "n_pool": 120,
+    "10min": {
+     "mean": 1.228,
+     "sd": 0.001,
+     "z": 7.0
+    },
+    "1min": {
+     "mean": 1.079,
+     "sd": 0.001,
+     "z": 52.0
+    }
+   },
+   "script_cyrillic_only": {
+    "n_pool": 311,
+    "10min": {
+     "mean": 1.031,
+     "sd": 0.13,
+     "z": 1.57
+    },
+    "1min": {
+     "mean": 1.023,
+     "sd": 0.096,
+     "z": 1.13
+    }
+   },
+   "political_and_cyrillic": {
+    "n_pool": 32,
+    "10min": {
+     "mean": 1.1,
+     "sd": 0.0,
+     "z": 135000.0
+    },
+    "1min": {
+     "mean": 1.015,
+     "sd": 0.0,
+     "z": 116000.0
+    }
+   }
+  },
+  "coincidence_lift_10min": {
+   "within_cluster": 1.225,
+   "n_within_pairs": 11781,
+   "cluster_to_matched_outside": 1.341,
+   "n_cross_pairs": 4928,
+   "n_outside": 32
+  },
+  "leadlag": [
+   {
+    "channel": "1210472093",
+    "title": "GAZ X DLive",
+    "username": "GazDLive",
+    "n_posts": 23,
+    "coincidence_rate": 0.2049,
+    "lead_fraction": 0.528,
+    "median_lag_s": 18.0
+   },
+   {
+    "channel": "1205177672",
+    "title": "TRIBUNALS for JUSTICE",
+    "username": "TRIBUNALSforJUSTICE",
+    "n_posts": 57,
+    "coincidence_rate": 0.1433,
+    "lead_fraction": 0.518,
+    "median_lag_s": 9.0
+   },
+   {
+    "channel": "1087368242",
+    "title": "Народный фронт",
+    "username": "onf_front",
+    "n_posts": 1031,
+    "coincidence_rate": 0.2446,
+    "lead_fraction": 0.516,
+    "median_lag_s": 7.0
+   },
+   {
+    "channel": "1004171705",
+    "title": "كتائب الشهيد عز الدين القسام",
+    "username": "qassambrigades",
+    "n_posts": 1565,
+    "coincidence_rate": 0.2478,
+    "lead_fraction": 0.515,
+    "median_lag_s": 8.0
+   },
+   {
+    "channel": "1201142306",
+    "title": "Exposing Zionism",
+    "username": "exposingzionism",
+    "n_posts": 229,
+    "coincidence_rate": 0.1782,
+    "lead_fraction": 0.514,
+    "median_lag_s": 7.0
+   },
+   {
+    "channel": "1210231451",
+    "title": "Where We Go 1 We Go All",
+    "username": "LogicalBrad",
+    "n_posts": 239,
+    "coincidence_rate": 0.1637,
+    "lead_fraction": 0.514,
+    "median_lag_s": 7.0
+   },
+   {
+    "channel": "1208468464",
+    "title": "QQ-Trump & Insider Patriots",
+    "username": "Trump_Patriots_Insiders",
+    "n_posts": 48,
+    "coincidence_rate": 0.1793,
+    "lead_fraction": 0.513,
+    "median_lag_s": 7.0
+   },
+   {
+    "channel": "1058944890",
+    "title": "Stephen Wells triggers everyon",
+    "username": "triggereveryone",
+    "n_posts": 156,
+    "coincidence_rate": 0.1516,
+    "lead_fraction": 0.511,
+    "median_lag_s": 5.0
+   }
+  ]
+ }
+}

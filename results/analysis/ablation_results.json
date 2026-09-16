@@ -1,0 +1,788 @@
+{
+ "coverage": {
+  "tw_t": {
+   "feat_table": 3185,
+   "seq_extracted": 2978
+  },
+  "tw_o": {
+   "feat_table": 1743,
+   "seq_extracted": 1743
+  },
+  "rd_t": {
+   "feat_table": 96,
+   "seq_extracted": 96
+  },
+  "rd_o": {
+   "feat_table": 663,
+   "seq_extracted": 643
+  }
+ },
+ "validation": {
+  "tw_t": {
+   "median_gap_min": 1.0,
+   "burstiness": 1.0,
+   "hour_0": 1.0,
+   "hour_12": 1.0,
+   "weekday_ratio": 1.0,
+   "per_day": 1.0
+  },
+  "tw_o": {
+   "median_gap_min": 1.0,
+   "burstiness": 1.0,
+   "hour_0": 1.0,
+   "hour_12": 1.0,
+   "weekday_ratio": 1.0,
+   "per_day": 1.0
+  },
+  "rd_t": {
+   "median_gap_min": 1.0,
+   "burstiness": 1.0,
+   "hour_0": 1.0,
+   "hour_12": 1.0,
+   "weekday_ratio": 1.0,
+   "per_day": 1.0
+  },
+  "rd_o": {
+   "median_gap_min": 1.0,
+   "burstiness": 1.0,
+   "hour_0": 1.0,
+   "hour_12": 1.0,
+   "weekday_ratio": 1.0,
+   "per_day": 1.0
+  }
+ },
+ "funnel": {
+  "cohortA": {
+   "ira": 96,
+   "organic": 643
+  },
+  "cohortB": {
+   "ira": 64,
+   "organic": 599,
+   "rule": "distinct ts >=30 IRA / >=50 organic"
+  }
+ },
+ "n_boot": 1000,
+ "cohorts": {
+  "A_unmatched": {
+   "auc": {
+    "G0_volume|lr": 0.4583,
+    "G0_volume|gbm": 0.4507,
+    "G1_phase|lr": 0.8908,
+    "G1_phase|gbm": 0.936,
+    "G2_schedule|lr": 0.6605,
+    "G2_schedule|gbm": 0.8613,
+    "G3_tempo|lr": 0.5595,
+    "G3_tempo|gbm": 0.5969,
+    "G4_actionmix|lr": 0.9734,
+    "G4_actionmix|gbm": 0.9547,
+    "G1G2_phase_sched|lr": 0.87,
+    "G1G2_phase_sched|gbm": 0.9279,
+    "G1G2G3_plus_tempo|lr": 0.6893,
+    "G1G2G3_plus_tempo|gbm": 0.8081,
+    "full_profile|lr": 0.9202,
+    "full_profile|gbm": 0.8811,
+    "tzfree_G2G3G4|lr": 0.8461,
+    "tzfree_G2G3G4|gbm": 0.8912
+   },
+   "ci": {
+    "G0_volume|lr": [
+     0.4008,
+     0.5169
+    ],
+    "G0_volume|gbm": [
+     0.3943,
+     0.5063
+    ],
+    "G1_phase|lr": [
+     0.8438,
+     0.9312
+    ],
+    "G1_phase|gbm": [
+     0.9024,
+     0.9618
+    ],
+    "G2_schedule|lr": [
+     0.6093,
+     0.7101
+    ],
+    "G2_schedule|gbm": [
+     0.8191,
+     0.8993
+    ],
+    "G3_tempo|lr": [
+     0.4926,
+     0.628
+    ],
+    "G3_tempo|gbm": [
+     0.5393,
+     0.6521
+    ],
+    "G4_actionmix|lr": [
+     0.9586,
+     0.9852
+    ],
+    "G4_actionmix|gbm": [
+     0.9263,
+     0.9767
+    ],
+    "G1G2_phase_sched|lr": [
+     0.8316,
+     0.9069
+    ],
+    "G1G2_phase_sched|gbm": [
+     0.8957,
+     0.9555
+    ],
+    "G1G2G3_plus_tempo|lr": [
+     0.6309,
+     0.7536
+    ],
+    "G1G2G3_plus_tempo|gbm": [
+     0.7606,
+     0.85
+    ],
+    "full_profile|lr": [
+     0.8902,
+     0.9461
+    ],
+    "full_profile|gbm": [
+     0.8428,
+     0.9146
+    ],
+    "tzfree_G2G3G4|lr": [
+     0.7993,
+     0.8853
+    ],
+    "tzfree_G2G3G4|gbm": [
+     0.8536,
+     0.9254
+    ]
+   },
+   "delta": {
+    "G1G2_phase_sched-minus-G3_tempo|lr": {
+     "point": 0.3105,
+     "ci": [
+      0.2301,
+      0.3998
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G3_tempo|gbm": {
+     "point": 0.331,
+     "ci": [
+      0.2644,
+      0.398
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|lr": {
+     "point": 0.3313,
+     "ci": [
+      0.2501,
+      0.4186
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|gbm": {
+     "point": 0.3391,
+     "ci": [
+      0.275,
+      0.4078
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|lr": {
+     "point": 0.0502,
+     "ci": [
+      0.0096,
+      0.0915
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|gbm": {
+     "point": -0.0468,
+     "ci": [
+      -0.0966,
+      -0.0001
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G0_volume|lr": {
+     "point": 0.4117,
+     "ci": [
+      0.3473,
+      0.4832
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G0_volume|gbm": {
+     "point": 0.4772,
+     "ci": [
+      0.4093,
+      0.5437
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|lr": {
+     "point": -0.1807,
+     "ci": [
+      -0.2542,
+      -0.1144
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|gbm": {
+     "point": -0.1198,
+     "ci": [
+      -0.176,
+      -0.064
+     ],
+     "excludes_zero": true
+    }
+   },
+   "n_pos": 96,
+   "n_neg": 643
+  },
+  "A_matched": {
+   "auc": {
+    "G0_volume|lr": 0.6652,
+    "G0_volume|gbm": 0.6605,
+    "G1_phase|lr": 0.8517,
+    "G1_phase|gbm": 0.9236,
+    "G2_schedule|lr": 0.7443,
+    "G2_schedule|gbm": 0.7929,
+    "G3_tempo|lr": 0.694,
+    "G3_tempo|gbm": 0.7184,
+    "G4_actionmix|lr": 0.9507,
+    "G4_actionmix|gbm": 0.9267,
+    "G1G2_phase_sched|lr": 0.8573,
+    "G1G2_phase_sched|gbm": 0.9065,
+    "G1G2G3_plus_tempo|lr": 0.7807,
+    "G1G2G3_plus_tempo|gbm": 0.8626,
+    "full_profile|lr": 0.9378,
+    "full_profile|gbm": 0.8952,
+    "tzfree_G2G3G4|lr": 0.8766,
+    "tzfree_G2G3G4|gbm": 0.8718
+   },
+   "ci": {
+    "G0_volume|lr": [
+     0.5992,
+     0.7326
+    ],
+    "G0_volume|gbm": [
+     0.5944,
+     0.7284
+    ],
+    "G1_phase|lr": [
+     0.8004,
+     0.9
+    ],
+    "G1_phase|gbm": [
+     0.8861,
+     0.9557
+    ],
+    "G2_schedule|lr": [
+     0.686,
+     0.8017
+    ],
+    "G2_schedule|gbm": [
+     0.7367,
+     0.8456
+    ],
+    "G3_tempo|lr": [
+     0.6295,
+     0.7572
+    ],
+    "G3_tempo|gbm": [
+     0.6591,
+     0.7744
+    ],
+    "G4_actionmix|lr": [
+     0.9212,
+     0.9735
+    ],
+    "G4_actionmix|gbm": [
+     0.8909,
+     0.9576
+    ],
+    "G1G2_phase_sched|lr": [
+     0.8116,
+     0.8999
+    ],
+    "G1G2_phase_sched|gbm": [
+     0.8664,
+     0.9421
+    ],
+    "G1G2G3_plus_tempo|lr": [
+     0.7231,
+     0.8383
+    ],
+    "G1G2G3_plus_tempo|gbm": [
+     0.8188,
+     0.9039
+    ],
+    "full_profile|lr": [
+     0.907,
+     0.9644
+    ],
+    "full_profile|gbm": [
+     0.8572,
+     0.9322
+    ],
+    "tzfree_G2G3G4|lr": [
+     0.8362,
+     0.9161
+    ],
+    "tzfree_G2G3G4|gbm": [
+     0.8283,
+     0.9164
+    ]
+   },
+   "delta": {
+    "G1G2_phase_sched-minus-G3_tempo|lr": {
+     "point": 0.1633,
+     "ci": [
+      0.0849,
+      0.2425
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G3_tempo|gbm": {
+     "point": 0.1881,
+     "ci": [
+      0.117,
+      0.2566
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|lr": {
+     "point": 0.1577,
+     "ci": [
+      0.0726,
+      0.238
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|gbm": {
+     "point": 0.2052,
+     "ci": [
+      0.1383,
+      0.2747
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|lr": {
+     "point": 0.0805,
+     "ci": [
+      0.0415,
+      0.1209
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|gbm": {
+     "point": -0.0113,
+     "ci": [
+      -0.0604,
+      0.0393
+     ],
+     "excludes_zero": false
+    },
+    "G1G2_phase_sched-minus-G0_volume|lr": {
+     "point": 0.1921,
+     "ci": [
+      0.1176,
+      0.2659
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G0_volume|gbm": {
+     "point": 0.246,
+     "ci": [
+      0.1648,
+      0.3247
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|lr": {
+     "point": -0.0766,
+     "ci": [
+      -0.1363,
+      -0.0203
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|gbm": {
+     "point": -0.0439,
+     "ci": [
+      -0.0982,
+      0.0106
+     ],
+     "excludes_zero": false
+    }
+   },
+   "n_pos": 96,
+   "n_neg": 161
+  },
+  "B_unmatched": {
+   "auc": {
+    "G0_volume|lr": 0.5579,
+    "G0_volume|gbm": 0.5384,
+    "G1_phase|lr": 0.9172,
+    "G1_phase|gbm": 0.9278,
+    "G2_schedule|lr": 0.66,
+    "G2_schedule|gbm": 0.8431,
+    "G3_tempo|lr": 0.71,
+    "G3_tempo|gbm": 0.6927,
+    "G4_actionmix|lr": 0.9688,
+    "G4_actionmix|gbm": 0.9473,
+    "G1G2_phase_sched|lr": 0.8873,
+    "G1G2_phase_sched|gbm": 0.9178,
+    "G1G2G3_plus_tempo|lr": 0.8231,
+    "G1G2G3_plus_tempo|gbm": 0.8841,
+    "full_profile|lr": 0.9665,
+    "full_profile|gbm": 0.9304,
+    "tzfree_G2G3G4|lr": 0.9306,
+    "tzfree_G2G3G4|gbm": 0.9344
+   },
+   "ci": {
+    "G0_volume|lr": [
+     0.4957,
+     0.6156
+    ],
+    "G0_volume|gbm": [
+     0.4802,
+     0.5937
+    ],
+    "G1_phase|lr": [
+     0.8633,
+     0.9624
+    ],
+    "G1_phase|gbm": [
+     0.885,
+     0.9656
+    ],
+    "G2_schedule|lr": [
+     0.5904,
+     0.7177
+    ],
+    "G2_schedule|gbm": [
+     0.7862,
+     0.8904
+    ],
+    "G3_tempo|lr": [
+     0.6478,
+     0.7704
+    ],
+    "G3_tempo|gbm": [
+     0.6358,
+     0.749
+    ],
+    "G4_actionmix|lr": [
+     0.9499,
+     0.9845
+    ],
+    "G4_actionmix|gbm": [
+     0.9052,
+     0.9779
+    ],
+    "G1G2_phase_sched|lr": [
+     0.8449,
+     0.9271
+    ],
+    "G1G2_phase_sched|gbm": [
+     0.8719,
+     0.957
+    ],
+    "G1G2G3_plus_tempo|lr": [
+     0.7668,
+     0.8778
+    ],
+    "G1G2G3_plus_tempo|gbm": [
+     0.8363,
+     0.9266
+    ],
+    "full_profile|lr": [
+     0.9347,
+     0.9895
+    ],
+    "full_profile|gbm": [
+     0.8921,
+     0.9659
+    ],
+    "tzfree_G2G3G4|lr": [
+     0.8924,
+     0.9649
+    ],
+    "tzfree_G2G3G4|gbm": [
+     0.8958,
+     0.969
+    ]
+   },
+   "delta": {
+    "G1G2_phase_sched-minus-G3_tempo|lr": {
+     "point": 0.1773,
+     "ci": [
+      0.0977,
+      0.2485
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G3_tempo|gbm": {
+     "point": 0.2251,
+     "ci": [
+      0.1544,
+      0.2962
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|lr": {
+     "point": 0.2072,
+     "ci": [
+      0.1231,
+      0.2853
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|gbm": {
+     "point": 0.2351,
+     "ci": [
+      0.1622,
+      0.3091
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|lr": {
+     "point": 0.0792,
+     "ci": [
+      0.0387,
+      0.127
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|gbm": {
+     "point": 0.0126,
+     "ci": [
+      -0.0357,
+      0.066
+     ],
+     "excludes_zero": false
+    },
+    "G1G2_phase_sched-minus-G0_volume|lr": {
+     "point": 0.3294,
+     "ci": [
+      0.2588,
+      0.3964
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G0_volume|gbm": {
+     "point": 0.3794,
+     "ci": [
+      0.3067,
+      0.449
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|lr": {
+     "point": -0.0642,
+     "ci": [
+      -0.1166,
+      -0.0106
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|gbm": {
+     "point": -0.0337,
+     "ci": [
+      -0.0867,
+      0.0199
+     ],
+     "excludes_zero": false
+    }
+   },
+   "n_pos": 64,
+   "n_neg": 599
+  },
+  "B_matched": {
+   "auc": {
+    "G0_volume|lr": 0.7915,
+    "G0_volume|gbm": 0.784,
+    "G1_phase|lr": 0.9104,
+    "G1_phase|gbm": 0.9286,
+    "G2_schedule|lr": 0.8043,
+    "G2_schedule|gbm": 0.8466,
+    "G3_tempo|lr": 0.8508,
+    "G3_tempo|gbm": 0.8326,
+    "G4_actionmix|lr": 0.9419,
+    "G4_actionmix|gbm": 0.9156,
+    "G1G2_phase_sched|lr": 0.9252,
+    "G1G2_phase_sched|gbm": 0.9299,
+    "G1G2G3_plus_tempo|lr": 0.916,
+    "G1G2G3_plus_tempo|gbm": 0.9409,
+    "full_profile|lr": 0.983,
+    "full_profile|gbm": 0.9549,
+    "tzfree_G2G3G4|lr": 0.964,
+    "tzfree_G2G3G4|gbm": 0.938
+   },
+   "ci": {
+    "G0_volume|lr": [
+     0.7218,
+     0.8519
+    ],
+    "G0_volume|gbm": [
+     0.7162,
+     0.8453
+    ],
+    "G1_phase|lr": [
+     0.8508,
+     0.9574
+    ],
+    "G1_phase|gbm": [
+     0.8818,
+     0.9682
+    ],
+    "G2_schedule|lr": [
+     0.7427,
+     0.864
+    ],
+    "G2_schedule|gbm": [
+     0.7864,
+     0.9037
+    ],
+    "G3_tempo|lr": [
+     0.7894,
+     0.9013
+    ],
+    "G3_tempo|gbm": [
+     0.7705,
+     0.8825
+    ],
+    "G4_actionmix|lr": [
+     0.9049,
+     0.9681
+    ],
+    "G4_actionmix|gbm": [
+     0.8665,
+     0.9545
+    ],
+    "G1G2_phase_sched|lr": [
+     0.8849,
+     0.9602
+    ],
+    "G1G2_phase_sched|gbm": [
+     0.8857,
+     0.9696
+    ],
+    "G1G2G3_plus_tempo|lr": [
+     0.8681,
+     0.954
+    ],
+    "G1G2G3_plus_tempo|gbm": [
+     0.9031,
+     0.97
+    ],
+    "full_profile|lr": [
+     0.9541,
+     0.9986
+    ],
+    "full_profile|gbm": [
+     0.9217,
+     0.9806
+    ],
+    "tzfree_G2G3G4|lr": [
+     0.9319,
+     0.9879
+    ],
+    "tzfree_G2G3G4|gbm": [
+     0.8984,
+     0.9688
+    ]
+   },
+   "delta": {
+    "G1G2_phase_sched-minus-G3_tempo|lr": {
+     "point": 0.0744,
+     "ci": [
+      0.0129,
+      0.1439
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G3_tempo|gbm": {
+     "point": 0.0973,
+     "ci": [
+      0.0287,
+      0.1698
+     ],
+     "excludes_zero": true
+    },
+    "G1_phase-minus-G3_tempo|lr": {
+     "point": 0.0596,
+     "ci": [
+      -0.019,
+      0.1374
+     ],
+     "excludes_zero": false
+    },
+    "G1_phase-minus-G3_tempo|gbm": {
+     "point": 0.096,
+     "ci": [
+      0.0227,
+      0.1667
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|lr": {
+     "point": 0.0578,
+     "ci": [
+      0.0209,
+      0.0954
+     ],
+     "excludes_zero": true
+    },
+    "full_profile-minus-G1G2_phase_sched|gbm": {
+     "point": 0.025,
+     "ci": [
+      -0.0247,
+      0.0729
+     ],
+     "excludes_zero": false
+    },
+    "G1G2_phase_sched-minus-G0_volume|lr": {
+     "point": 0.1337,
+     "ci": [
+      0.0676,
+      0.2054
+     ],
+     "excludes_zero": true
+    },
+    "G1G2_phase_sched-minus-G0_volume|gbm": {
+     "point": 0.1459,
+     "ci": [
+      0.0716,
+      0.2305
+     ],
+     "excludes_zero": true
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|lr": {
+     "point": -0.0092,
+     "ci": [
+      -0.0587,
+      0.0388
+     ],
+     "excludes_zero": false
+    },
+    "G1G2G3_plus_tempo-minus-G1G2_phase_sched|gbm": {
+     "point": 0.011,
+     "ci": [
+      -0.0398,
+      0.06
+     ],
+     "excludes_zero": false
+    }
+   },
+   "n_pos": 64,
+   "n_neg": 124
+  }
+ }
+}

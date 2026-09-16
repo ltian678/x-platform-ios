@@ -1,0 +1,119 @@
+{
+ "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+ "n_text_cap": 150,
+ "within_twitter_cv_auc": [
+  0.988,
+  0.002
+ ],
+ "coverage": {
+  "reddit_eval": 739,
+  "reddit_ira": 96,
+  "cohortA_total": 739
+ },
+ "unmatched": {
+  "auc": {
+   "text_lr": 0.7696,
+   "G1G2_phase_sched|lr": 0.87,
+   "G1G2_phase_sched|gbm": 0.9279,
+   "full_profile|lr": 0.9202
+  },
+  "ci": {
+   "text_lr": [
+    0.7198,
+    0.8137
+   ],
+   "G1G2_phase_sched|lr": [
+    0.8351,
+    0.9057
+   ],
+   "G1G2_phase_sched|gbm": [
+    0.8962,
+    0.9553
+   ],
+   "full_profile|lr": [
+    0.8896,
+    0.9477
+   ]
+  },
+  "delta_vs_text": {
+   "G1G2_phase_sched|lr-minus-text": {
+    "point": 0.1004,
+    "ci": [
+     0.0504,
+     0.1588
+    ]
+   },
+   "G1G2_phase_sched|gbm-minus-text": {
+    "point": 0.1583,
+    "ci": [
+     0.1001,
+     0.2193
+    ]
+   },
+   "full_profile|lr-minus-text": {
+    "point": 0.1506,
+    "ci": [
+     0.1007,
+     0.2094
+    ]
+   }
+  },
+  "n": [
+   96,
+   643
+  ]
+ },
+ "matched": {
+  "auc": {
+   "text_lr": 0.8118,
+   "G1G2_phase_sched|lr": 0.8573,
+   "G1G2_phase_sched|gbm": 0.9065,
+   "full_profile|lr": 0.9378
+  },
+  "ci": {
+   "text_lr": [
+    0.7588,
+    0.8586
+   ],
+   "G1G2_phase_sched|lr": [
+    0.8099,
+    0.9002
+   ],
+   "G1G2_phase_sched|gbm": [
+    0.8676,
+    0.9406
+   ],
+   "full_profile|lr": [
+    0.9071,
+    0.9657
+   ]
+  },
+  "delta_vs_text": {
+   "G1G2_phase_sched|lr-minus-text": {
+    "point": 0.0455,
+    "ci": [
+     -0.0232,
+     0.1114
+    ]
+   },
+   "G1G2_phase_sched|gbm-minus-text": {
+    "point": 0.0947,
+    "ci": [
+     0.0305,
+     0.1624
+    ]
+   },
+   "full_profile|lr-minus-text": {
+    "point": 0.126,
+    "ci": [
+     0.0692,
+     0.1858
+    ]
+   }
+  },
+  "n": [
+   96,
+   161
+  ]
+ }
+}

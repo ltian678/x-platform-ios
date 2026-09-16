@@ -1,0 +1,13 @@
+# Core (profile features, bootstrap evaluation, CPU baselines, public exports)
+numpy
+pandas
+scikit-learn
+scipy
+networkx
+# Learned policies and the point-process model (one CUDA device); see environment.txt for archived versions
+# torch
+# mamba_ssm
+# Content baselines
+# transformers
+# Tests
+pytest

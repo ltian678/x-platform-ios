@@ -1,0 +1,518 @@
+{
+ "n_boot": 2000,
+ "p_le2017_2018": {
+  "pair": "le2017->2018",
+  "n": {
+   "era1": 698,
+   "era2": 950,
+   "stayers": 379,
+   "leavers": 319,
+   "entrants": 571
+  },
+  "stayers_paired_delta": {
+   "top6h_mass": {
+    "median": 0.1135,
+    "ci": [
+     0.0818,
+     0.1307
+    ],
+    "frac_increase": 0.718
+   },
+   "weekday_ratio": {
+    "median": 0.0032,
+    "ci": [
+     -0.081,
+     0.0749
+    ],
+    "frac_increase": 0.507
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "frac_increase": 0.417
+   },
+   "frac_gap_under_1min": {
+    "median": -0.0126,
+    "ci": [
+     -0.0359,
+     0.0082
+    ],
+    "frac_increase": 0.464
+   }
+  },
+  "stayers_hour_cosine": {
+   "median": 0.608,
+   "ci": [
+    0.5563,
+    0.6328
+   ]
+  },
+  "decomposition": {
+   "top6h_mass": {
+    "pop_era1": 0.5462,
+    "pop_era2": 0.8283,
+    "stayers_era1": 0.5294,
+    "stayers_era2": 0.7494,
+    "leavers_era1": 0.5566,
+    "entrants_era2": 0.8636
+   },
+   "weekday_ratio": {
+    "pop_era1": 1.1108,
+    "pop_era2": 1.1,
+    "stayers_era1": 1.0484,
+    "stayers_era2": 1.0719,
+    "leavers_era1": 1.2182,
+    "entrants_era2": 1.1326
+   },
+   "median_gap_min": {
+    "pop_era1": 2.0,
+    "pop_era2": 1.5,
+    "stayers_era1": 1.0,
+    "stayers_era2": 1.0,
+    "leavers_era1": 4.0,
+    "entrants_era2": 2.0
+   },
+   "frac_gap_under_1min": {
+    "pop_era1": 0.2617,
+    "pop_era2": 0.3001,
+    "stayers_era1": 0.3253,
+    "stayers_era2": 0.311,
+    "leavers_era1": 0.1783,
+    "entrants_era2": 0.2878
+   }
+  },
+  "sens_drop_top_decile": {
+   "top6h_mass": {
+    "median": 0.1144,
+    "n": 341
+   },
+   "weekday_ratio": {
+    "median": -0.001,
+    "n": 341
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "n": 341
+   },
+   "frac_gap_under_1min": {
+    "median": -0.0115,
+    "n": 341
+   }
+  }
+ },
+ "p_2018_2019": {
+  "pair": "2018->2019",
+  "n": {
+   "era1": 950,
+   "era2": 3879,
+   "stayers": 673,
+   "leavers": 277,
+   "entrants": 3206
+  },
+  "stayers_paired_delta": {
+   "top6h_mass": {
+    "median": 0.0367,
+    "ci": [
+     0.028,
+     0.048
+    ],
+    "frac_increase": 0.66
+   },
+   "weekday_ratio": {
+    "median": 0.1408,
+    "ci": [
+     0.1056,
+     0.1752
+    ],
+    "frac_increase": 0.655
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "frac_increase": 0.236
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0272,
+    "ci": [
+     0.0182,
+     0.0383
+    ],
+    "frac_increase": 0.59
+   }
+  },
+  "stayers_hour_cosine": {
+   "median": 0.8091,
+   "ci": [
+    0.7869,
+    0.8278
+   ]
+  },
+  "decomposition": {
+   "top6h_mass": {
+    "pop_era1": 0.8283,
+    "pop_era2": 0.991,
+    "stayers_era1": 0.8168,
+    "stayers_era2": 0.8893,
+    "leavers_era1": 0.8451,
+    "entrants_era2": 1.0
+   },
+   "weekday_ratio": {
+    "pop_era1": 1.1,
+    "pop_era2": 2.4,
+    "stayers_era1": 1.0604,
+    "stayers_era2": 1.2207,
+    "leavers_era1": 1.375,
+    "entrants_era2": 3.0
+   },
+   "median_gap_min": {
+    "pop_era1": 1.5,
+    "pop_era2": 1.0,
+    "stayers_era1": 1.0,
+    "stayers_era2": 1.0,
+    "leavers_era1": 4.5,
+    "entrants_era2": 1.0
+   },
+   "frac_gap_under_1min": {
+    "pop_era1": 0.3001,
+    "pop_era2": 0.4329,
+    "stayers_era1": 0.3136,
+    "stayers_era2": 0.3498,
+    "leavers_era1": 0.2475,
+    "entrants_era2": 0.4587
+   }
+  },
+  "sens_drop_top_decile": {
+   "top6h_mass": {
+    "median": 0.0352,
+    "n": 605
+   },
+   "weekday_ratio": {
+    "median": 0.1475,
+    "n": 605
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "n": 605
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0357,
+    "n": 605
+   }
+  }
+ },
+ "p_2019_2020": {
+  "pair": "2019->2020",
+  "n": {
+   "era1": 3879,
+   "era2": 677,
+   "stayers": 34,
+   "leavers": 3845,
+   "entrants": 643
+  },
+  "stayers_paired_delta": {
+   "top6h_mass": {
+    "median": 0.0016,
+    "ci": [
+     0.0,
+     0.047
+    ],
+    "frac_increase": 0.529
+   },
+   "weekday_ratio": {
+    "median": 0.0,
+    "ci": [
+     0.0,
+     0.08
+    ],
+    "frac_increase": 0.441
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "ci": [
+     -1.25,
+     0.0
+    ],
+    "frac_increase": 0.206
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0341,
+    "ci": [
+     0.0051,
+     0.0987
+    ],
+    "frac_increase": 0.647
+   }
+  },
+  "stayers_hour_cosine": {
+   "median": 0.7641,
+   "ci": [
+    0.6612,
+    0.8411
+   ]
+  },
+  "decomposition": {
+   "top6h_mass": {
+    "pop_era1": 0.991,
+    "pop_era2": 1.0,
+    "stayers_era1": 0.9409,
+    "stayers_era2": 0.9748,
+    "leavers_era1": 0.9915,
+    "entrants_era2": 1.0
+   },
+   "weekday_ratio": {
+    "pop_era1": 2.4,
+    "pop_era2": 2.7,
+    "stayers_era1": 1.863,
+    "stayers_era2": 2.2,
+    "leavers_era1": 2.4,
+    "entrants_era2": 2.7529
+   },
+   "median_gap_min": {
+    "pop_era1": 1.0,
+    "pop_era2": 1.0,
+    "stayers_era1": 2.0,
+    "stayers_era2": 1.0,
+    "leavers_era1": 1.0,
+    "entrants_era2": 0.5
+   },
+   "frac_gap_under_1min": {
+    "pop_era1": 0.4329,
+    "pop_era2": 0.4943,
+    "stayers_era1": 0.2771,
+    "stayers_era2": 0.377,
+    "leavers_era1": 0.4345,
+    "entrants_era2": 0.5
+   }
+  },
+  "sens_drop_top_decile": {
+   "top6h_mass": {
+    "median": 0.0,
+    "n": 30
+   },
+   "weekday_ratio": {
+    "median": 0.0,
+    "n": 30
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "n": 30
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0263,
+    "n": 30
+   }
+  }
+ },
+ "p_le2017_2019": {
+  "pair": "le2017->2019",
+  "n": {
+   "era1": 698,
+   "era2": 3879,
+   "stayers": 429,
+   "leavers": 269,
+   "entrants": 3450
+  },
+  "stayers_paired_delta": {
+   "top6h_mass": {
+    "median": 0.2607,
+    "ci": [
+     0.2272,
+     0.2982
+    ],
+    "frac_increase": 0.858
+   },
+   "weekday_ratio": {
+    "median": 0.1465,
+    "ci": [
+     0.0737,
+     0.2291
+    ],
+    "frac_increase": 0.583
+   },
+   "median_gap_min": {
+    "median": -1.0,
+    "ci": [
+     -2.0,
+     -1.0
+    ],
+    "frac_increase": 0.291
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0587,
+    "ci": [
+     0.0301,
+     0.0852
+    ],
+    "frac_increase": 0.592
+   }
+  },
+  "stayers_hour_cosine": {
+   "median": 0.4402,
+   "ci": [
+    0.405,
+    0.4747
+   ]
+  },
+  "decomposition": {
+   "top6h_mass": {
+    "pop_era1": 0.5462,
+    "pop_era2": 0.991,
+    "stayers_era1": 0.5204,
+    "stayers_era2": 0.8806,
+    "leavers_era1": 0.6398,
+    "entrants_era2": 1.0
+   },
+   "weekday_ratio": {
+    "pop_era1": 1.1108,
+    "pop_era2": 2.4,
+    "stayers_era1": 1.0769,
+    "stayers_era2": 1.2188,
+    "leavers_era1": 1.2679,
+    "entrants_era2": 2.8
+   },
+   "median_gap_min": {
+    "pop_era1": 2.0,
+    "pop_era2": 1.0,
+    "stayers_era1": 4.0,
+    "stayers_era2": 1.0,
+    "leavers_era1": 1.0,
+    "entrants_era2": 1.0
+   },
+   "frac_gap_under_1min": {
+    "pop_era1": 0.2617,
+    "pop_era2": 0.4329,
+    "stayers_era1": 0.2086,
+    "stayers_era2": 0.3245,
+    "leavers_era1": 0.4088,
+    "entrants_era2": 0.4489
+   }
+  },
+  "sens_drop_top_decile": {
+   "top6h_mass": {
+    "median": 0.2769,
+    "n": 386
+   },
+   "weekday_ratio": {
+    "median": 0.1323,
+    "n": 386
+   },
+   "median_gap_min": {
+    "median": -2.0,
+    "n": 386
+   },
+   "frac_gap_under_1min": {
+    "median": 0.0688,
+    "n": 386
+   }
+  }
+ },
+ "p_cal2017_2019_equalwin": {
+  "pair": "cal2017->2019",
+  "n": {
+   "era1": 355,
+   "era2": 3879,
+   "stayers": 209,
+   "leavers": 146,
+   "entrants": 3670
+  },
+  "stayers_paired_delta": {
+   "top6h_mass": {
+    "median": 0.1061,
+    "ci": [
+     0.0784,
+     0.1541
+    ],
+    "frac_increase": 0.689
+   },
+   "weekday_ratio": {
+    "median": 0.1544,
+    "ci": [
+     0.0716,
+     0.3275
+    ],
+    "frac_increase": 0.598
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "frac_increase": 0.435
+   },
+   "frac_gap_under_1min": {
+    "median": -0.0514,
+    "ci": [
+     -0.0856,
+     0.0098
+    ],
+    "frac_increase": 0.44
+   }
+  },
+  "stayers_hour_cosine": {
+   "median": 0.5327,
+   "ci": [
+    0.4859,
+    0.6034
+   ]
+  },
+  "decomposition": {
+   "top6h_mass": {
+    "pop_era1": 0.6592,
+    "pop_era2": 0.991,
+    "stayers_era1": 0.5938,
+    "stayers_era2": 0.8361,
+    "leavers_era1": 0.7518,
+    "entrants_era2": 1.0
+   },
+   "weekday_ratio": {
+    "pop_era1": 1.0409,
+    "pop_era2": 2.4,
+    "stayers_era1": 1.0162,
+    "stayers_era2": 1.1922,
+    "leavers_era1": 1.1888,
+    "entrants_era2": 2.56
+   },
+   "median_gap_min": {
+    "pop_era1": 0.0,
+    "pop_era2": 1.0,
+    "stayers_era1": 1.0,
+    "stayers_era2": 1.0,
+    "leavers_era1": 0.0,
+    "entrants_era2": 1.0
+   },
+   "frac_gap_under_1min": {
+    "pop_era1": 0.517,
+    "pop_era2": 0.4329,
+    "stayers_era1": 0.4025,
+    "stayers_era2": 0.3525,
+    "leavers_era1": 0.5728,
+    "entrants_era2": 0.4388
+   }
+  },
+  "sens_drop_top_decile": {
+   "top6h_mass": {
+    "median": 0.1081,
+    "n": 188
+   },
+   "weekday_ratio": {
+    "median": 0.1658,
+    "n": 188
+   },
+   "median_gap_min": {
+    "median": 0.0,
+    "n": 188
+   },
+   "frac_gap_under_1min": {
+    "median": -0.0258,
+    "n": 188
+   }
+  }
+ }
+}

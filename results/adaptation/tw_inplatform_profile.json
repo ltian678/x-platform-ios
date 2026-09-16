@@ -1,0 +1,85 @@
+{
+ "protocol": "rep-task 70/30 split; fit IRA train vs organic train; AUC IRA test vs organic test; 500-draw bootstrap",
+ "auc": {
+  "G0_volume|lr": [
+   0.9936,
+   0.9901,
+   0.9964
+  ],
+  "G0_volume|gbm": [
+   0.9895,
+   0.9831,
+   0.9946
+  ],
+  "G1_phase|lr": [
+   0.8882,
+   0.8692,
+   0.905
+  ],
+  "G1_phase|gbm": [
+   0.9789,
+   0.9715,
+   0.9845
+  ],
+  "G2_schedule|lr": [
+   0.7817,
+   0.7575,
+   0.8047
+  ],
+  "G2_schedule|gbm": [
+   0.9449,
+   0.9322,
+   0.9564
+  ],
+  "G3_tempo|lr": [
+   0.9952,
+   0.9924,
+   0.9974
+  ],
+  "G3_tempo|gbm": [
+   0.9977,
+   0.996,
+   0.999
+  ],
+  "G4_actionmix|lr": [
+   0.9236,
+   0.9081,
+   0.9364
+  ],
+  "G4_actionmix|gbm": [
+   0.9561,
+   0.9453,
+   0.9659
+  ],
+  "G1G2_phase_sched|lr": [
+   0.9196,
+   0.906,
+   0.9345
+  ],
+  "G1G2_phase_sched|gbm": [
+   0.9877,
+   0.9832,
+   0.9917
+  ],
+  "G1G2G3_plus_tempo|lr": [
+   0.9984,
+   0.9973,
+   0.9992
+  ],
+  "G1G2G3_plus_tempo|gbm": [
+   0.9986,
+   0.9975,
+   0.9994
+  ],
+  "full_profile|lr": [
+   0.9993,
+   0.998,
+   0.9999
+  ],
+  "full_profile|gbm": [
+   0.9996,
+   0.9992,
+   0.9999
+  ]
+ }
+}

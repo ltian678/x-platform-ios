@@ -1,0 +1,332 @@
+{
+  "scope": "Public Twitter and Reddit evidence; selected fields only; no new fits or bootstrap intervals",
+  "input_sha256": {
+    "ira_adaptation.json": "7b0675a92b380a72262e825cf36ddd1c2abacc356b4dfd9d96250638a814b8ec",
+    "din_era_drift.json": "3c2ed273c3490d2a562bebc5d334ef824136b336095b229f301ba6d7f6e6a218",
+    "era_policy_unified_results.json": "fb9c447345fffcda8cedf294774cf6d99f6d0ed4be8046d5c7947812e64dbdd9",
+    "tpp_results_v5b_rdmatched.json": "5f1847debdb1860005f9eb4b2ce1fb39626e556da967bcc6d106d15d95545af7",
+    "tpp_results_v4_public.json": "c58335d6e075570e15b6e02adb9afc2bf0c0d8664e51c78486a104dcf286f999"
+  },
+  "adaptation": {
+    "table": [
+      {
+        "cohort": "ru_ira",
+        "n_accounts": 1323,
+        "gap_min": 30.0,
+        "burst": 0.754,
+        "cos_audience": 0.839,
+        "cos_home": 1.0
+      },
+      {
+        "cohort": "en_ira",
+        "n_accounts": 1480,
+        "gap_min": 1.0,
+        "burst": 0.775,
+        "cos_audience": 0.852,
+        "cos_home": 0.987
+      },
+      {
+        "cohort": "TW_blm",
+        "n_accounts": 28,
+        "gap_min": 4.5,
+        "burst": 0.605,
+        "cos_audience": 0.937,
+        "cos_home": 0.831
+      },
+      {
+        "cohort": "TW_maga",
+        "n_accounts": 35,
+        "gap_min": 1.0,
+        "burst": 0.728,
+        "cos_audience": 0.909,
+        "cos_home": 0.911
+      },
+      {
+        "cohort": "organic",
+        "n_accounts": 1743,
+        "gap_min": 2533.183,
+        "burst": 0.157,
+        "cos_audience": 1.0,
+        "cos_home": 0.839
+      }
+    ],
+    "windows": {
+      "blm": [
+        "2015-06-01",
+        "2016-10-31"
+      ],
+      "maga": [
+        "2015-06-01",
+        "2016-12-31"
+      ]
+    },
+    "estimand": "Cosine between equal-account-weight normalized hour-profile centroids; gaps are medians of account medians",
+    "reference": "Organic Twitter timelines, not verified audience geolocation; home reference is ru-IRA"
+  },
+  "china": {
+    "eras": {
+      "tw_le2017_ifttt": {
+        "n_account_cells": 698,
+        "n_events": 10785171,
+        "top6h_mass": 0.5462,
+        "weekday_ratio": 1.1108,
+        "median_gap_min": 2.0,
+        "frac_gap_under_1min": 0.2617,
+        "burstiness": 0.7816,
+        "hour_centroid": [
+          0.04,
+          0.0557,
+          0.0613,
+          0.0553,
+          0.0369,
+          0.0437,
+          0.0426,
+          0.0423,
+          0.041,
+          0.0409,
+          0.0306,
+          0.0393,
+          0.0457,
+          0.0467,
+          0.0483,
+          0.0487,
+          0.0442,
+          0.0419,
+          0.0353,
+          0.0329,
+          0.0311,
+          0.0323,
+          0.0313,
+          0.0321
+        ]
+      },
+      "tw_2018": {
+        "n_account_cells": 950,
+        "n_events": 1810905,
+        "top6h_mass": 0.8283,
+        "weekday_ratio": 1.1,
+        "median_gap_min": 1.5,
+        "frac_gap_under_1min": 0.3001,
+        "burstiness": 0.4907,
+        "hour_centroid": [
+          0.0719,
+          0.1618,
+          0.1468,
+          0.09,
+          0.0484,
+          0.0458,
+          0.0552,
+          0.0542,
+          0.0446,
+          0.0315,
+          0.0209,
+          0.0224,
+          0.0285,
+          0.0294,
+          0.0291,
+          0.0229,
+          0.0186,
+          0.0132,
+          0.0097,
+          0.0078,
+          0.008,
+          0.0066,
+          0.0114,
+          0.0211
+        ]
+      },
+      "tw_2019": {
+        "n_account_cells": 3879,
+        "n_events": 1339662,
+        "top6h_mass": 0.991,
+        "weekday_ratio": 2.4,
+        "median_gap_min": 1.0,
+        "frac_gap_under_1min": 0.4329,
+        "burstiness": 0.5452,
+        "hour_centroid": [
+          0.0395,
+          0.1074,
+          0.1843,
+          0.1621,
+          0.0841,
+          0.0742,
+          0.1017,
+          0.0821,
+          0.0481,
+          0.0264,
+          0.0102,
+          0.0097,
+          0.0115,
+          0.0126,
+          0.0111,
+          0.0074,
+          0.0056,
+          0.0032,
+          0.0027,
+          0.0018,
+          0.002,
+          0.0018,
+          0.003,
+          0.0073
+        ]
+      },
+      "tw_2020": {
+        "n_account_cells": 677,
+        "n_events": 53846,
+        "top6h_mass": 1.0,
+        "weekday_ratio": 2.7,
+        "median_gap_min": 1.0,
+        "frac_gap_under_1min": 0.4943,
+        "burstiness": 0.4952,
+        "hour_centroid": [
+          0.0146,
+          0.0837,
+          0.1413,
+          0.1183,
+          0.0822,
+          0.0856,
+          0.1367,
+          0.1336,
+          0.0863,
+          0.0394,
+          0.014,
+          0.0058,
+          0.0083,
+          0.0072,
+          0.0042,
+          0.0055,
+          0.0043,
+          0.0051,
+          0.0042,
+          0.0057,
+          0.0028,
+          0.0027,
+          0.004,
+          0.0046
+        ]
+      }
+    },
+    "estimand": "Per-account-era medians; at least 30 events; top6h sums the six largest hourly bins, not a contiguous window; same-timestamp events retained",
+    "early_to_2020_hour_cosine_from_rounded_centroids": 0.7079733990833295,
+    "hour_cosine": {
+      "tw_2018 vs tw_2019": 0.914,
+      "tw_2018 vs tw_2020": 0.838,
+      "tw_2018 vs tw_le2017_ifttt": 0.81,
+      "tw_2019 vs tw_2020": 0.949,
+      "tw_2019 vs tw_le2017_ifttt": 0.717,
+      "tw_2020 vs tw_le2017_ifttt": 0.708
+    },
+    "policy_populations": {
+      "C_le2017": 698,
+      "C_2019": 3879,
+      "C_2020": 677,
+      "ORG": 1743
+    },
+    "unified_tw_symmetric_distance": {
+      "C_le2017": {
+        "C_le2017": 0.0,
+        "C_2019": 0.0898,
+        "C_2020": 0.1719,
+        "ORG": 0.5061
+      },
+      "C_2019": {
+        "C_le2017": 0.0898,
+        "C_2019": 0.0,
+        "C_2020": 0.0466,
+        "ORG": 0.5794
+      },
+      "C_2020": {
+        "C_le2017": 0.1719,
+        "C_2019": 0.0466,
+        "C_2020": 0.0,
+        "ORG": 0.7362
+      },
+      "ORG": {
+        "C_le2017": 0.5061,
+        "C_2019": 0.5794,
+        "C_2020": 0.7362,
+        "ORG": 0.0
+      }
+    },
+    "unified_tw_pairwise_auc": {
+      "C_le2017 vs ORG": 0.948,
+      "C_2019 vs C_le2017": 0.8314,
+      "C_2019 vs C_2020": 0.6582,
+      "C_2019 vs ORG": 0.9915,
+      "C_2020 vs C_le2017": 0.8919,
+      "C_2020 vs ORG": 0.9895
+    }
+  },
+  "reddit_matched": {
+    "populations": {
+      "RDm:organic": {
+        "n_entities": 368,
+        "split": "entities 295/36/37",
+        "n_test_windows": 59,
+        "KS_vs_uniform_test": 0.0595,
+        "mean_tau_test": 1.288,
+        "small_n_flag": false
+      },
+      "RDm:IRA": {
+        "n_entities": 64,
+        "split": "entities 52/6/6",
+        "n_test_windows": 15,
+        "KS_vs_uniform_test": 0.0905,
+        "mean_tau_test": 1.359,
+        "small_n_flag": false
+      }
+    },
+    "zero_shot": {
+      "mean_tau_modelfree": {
+        "auc": 0.502,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_tau_pos": 1.328,
+        "median_tau_neg": 1.304
+      },
+      "TW:IRA_policy_on_RD": {
+        "auc": 0.594,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_llr_pos": -0.022,
+        "median_llr_neg": -0.054
+      },
+      "TW:Iran_policy_on_RD": {
+        "auc": 0.465,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_llr_pos": -0.128,
+        "median_llr_neg": -0.136
+      },
+      "TW:China_policy_on_RD": {
+        "auc": 0.509,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_llr_pos": -0.064,
+        "median_llr_neg": -0.076
+      },
+      "TW:Venezuela_policy_on_RD": {
+        "auc": 0.333,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_llr_pos": -0.423,
+        "median_llr_neg": -0.293
+      },
+      "TW:organic_policy_on_RD": {
+        "auc": 0.35,
+        "n_pos": 64,
+        "n_neg": 73,
+        "median_llr_pos": -0.171,
+        "median_llr_neg": -0.123
+      },
+      "RDm:IRA_policy_on_RD": {
+        "auc": 0.594,
+        "n_pos": 6,
+        "n_neg": 73,
+        "median_llr_pos": 0.115,
+        "median_llr_neg": 0.082
+      }
+    },
+    "scope": "Zero-shot Twitter-policy scores use 64 Reddit IRA accounts and 73 held-out organic controls; own Reddit-policy test uses six IRA accounts"
+  }
+}

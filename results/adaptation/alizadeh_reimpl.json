@@ -1,0 +1,58 @@
+{
+ "post_cap": 100,
+ "n_trees": 1000,
+ "n_topics": 20,
+ "coverage": {
+  "TW:IRA": [
+   2917,
+   286868
+  ],
+  "TW:organic": [
+   1743,
+   143790
+  ],
+  "RD:IRA": [
+   96,
+   4817
+  ],
+  "RD:organic": [
+   643,
+   60159
+  ]
+ },
+ "fit_on_twitter": {
+  "TW->TW|post_auc": 0.9951,
+  "TW->TW|post_macroF1@0.5": 0.9641,
+  "TW->TW|account_auc": [
+   0.9989,
+   0.9966,
+   1.0
+  ],
+  "TW->RD|post_auc": 0.5549,
+  "TW->RD|post_macroF1@0.5": 0.552,
+  "TW->RD|account_auc|unmatched": [
+   0.7453,
+   0.6736,
+   0.8081
+  ],
+  "TW->RD|account_auc|matched": [
+   0.7432,
+   0.6729,
+   0.8192
+  ],
+  "TW->RD|n_accounts": [
+   96,
+   643,
+   168
+  ]
+ },
+ "RD->RD|account_auc|5fold": [
+  0.9913,
+  0.9812,
+  0.9981
+ ],
+ "RD->RD|n_accounts": [
+  96,
+  643
+ ]
+}

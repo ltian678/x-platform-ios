@@ -1,0 +1,548 @@
+{
+  "scope": "Public populations only, selected by a fixed allowlist",
+  "public_with_baselines": {
+    "populations": [
+      "TW:organic",
+      "RD:organic",
+      "TG:broadcast",
+      "TW:IRA",
+      "TW:Iran",
+      "TW:China",
+      "TW:Venezuela",
+      "RD:IRA",
+      "TG:Russia",
+      "TG:Iran",
+      "TG:Syria",
+      "TG:Yemen",
+      "TG:Palestine"
+    ],
+    "n_populations": 13,
+    "n_pairs": 78,
+    "quantity": "symmetric excess NLL (not exponentiated similarity)",
+    "pearson_r": 0.8376290616583811,
+    "spearman_rho": 0.8133243987852155,
+    "inference": "descriptive correlation; pairs share populations; no independent-pair significance test"
+  },
+  "displayed_without_baselines": {
+    "populations": [
+      "TW:IRA",
+      "TW:Iran",
+      "TW:China",
+      "TW:Venezuela",
+      "RD:IRA",
+      "TG:Russia",
+      "TG:Iran",
+      "TG:Syria",
+      "TG:Yemen",
+      "TG:Palestine"
+    ],
+    "n_populations": 10,
+    "n_pairs": 45,
+    "quantity": "symmetric excess NLL (not exponentiated similarity)",
+    "pearson_r": 0.8522320692458373,
+    "spearman_rho": 0.8612931919425915,
+    "inference": "descriptive correlation; pairs share populations; no independent-pair significance test"
+  },
+  "account_lengths": {
+    "TW:organic": {
+      "n_test_accounts": 173,
+      "median_gaps": 85,
+      "mean_gaps": 131
+    },
+    "RD:organic": {
+      "n_test_accounts": 92,
+      "median_gaps": 2609,
+      "mean_gaps": 5524
+    },
+    "TG:broadcast": {
+      "n_test_accounts": 91,
+      "median_gaps": 1312,
+      "mean_gaps": 4146
+    },
+    "TW:IRA": {
+      "n_test_accounts": 281,
+      "median_gaps": 627,
+      "mean_gaps": 2190
+    },
+    "TW:Iran": {
+      "n_test_accounts": 47,
+      "median_gaps": 416,
+      "mean_gaps": 1576
+    },
+    "TW:China": {
+      "n_test_accounts": 245,
+      "median_gaps": 210,
+      "mean_gaps": 2209
+    },
+    "TW:Venezuela": {
+      "n_test_accounts": 3,
+      "median_gaps": 23924,
+      "mean_gaps": 23596
+    },
+    "RD:IRA": {
+      "n_test_accounts": 6,
+      "median_gaps": 475,
+      "mean_gaps": 920
+    },
+    "TG:Russia": {
+      "n_test_accounts": 6,
+      "median_gaps": 8822,
+      "mean_gaps": 14351
+    },
+    "TG:Iran": {
+      "n_test_accounts": 7,
+      "median_gaps": 43295,
+      "mean_gaps": 36224
+    },
+    "TG:Syria": {
+      "n_test_accounts": 2,
+      "median_gaps": 5704,
+      "mean_gaps": 5704
+    },
+    "TG:Yemen": {
+      "n_test_accounts": 7,
+      "median_gaps": 42108,
+      "mean_gaps": 36642
+    },
+    "TG:Palestine": {
+      "n_test_accounts": 4,
+      "median_gaps": 110474,
+      "mean_gaps": 109119
+    }
+  },
+  "exponential_fit_rates": {
+    "TW:organic": 1.0731,
+    "RD:organic": 1.0895,
+    "TG:broadcast": 1.0153,
+    "TW:IRA": 2.379,
+    "TW:Iran": 2.5124,
+    "TW:China": 4.3941,
+    "TW:Venezuela": 2.9837,
+    "RD:IRA": 0.9964,
+    "TG:Russia": 1.008,
+    "TG:Iran": 1.0267,
+    "TG:Syria": 0.9295,
+    "TG:Yemen": 1.0301,
+    "TG:Palestine": 1.0674
+  },
+  "exponential_excess_nll": {
+    "TW:organic": {
+      "TW:organic": 0.0,
+      "RD:organic": 0.0003,
+      "TG:broadcast": 0.0009,
+      "TW:IRA": 0.434,
+      "TW:Iran": 0.5052,
+      "TW:China": 1.7187,
+      "TW:Venezuela": 0.7772,
+      "RD:IRA": 0.0019,
+      "TG:Russia": 0.0013,
+      "TG:Iran": 0.0005,
+      "TG:Syria": 0.0084,
+      "TG:Yemen": 0.0004,
+      "TG:Palestine": -0.0
+    },
+    "RD:organic": {
+      "TW:organic": -0.0004,
+      "RD:organic": 0.0,
+      "TG:broadcast": 0.0002,
+      "TW:IRA": 0.4421,
+      "TW:Iran": 0.5141,
+      "TW:China": 1.7397,
+      "TW:Venezuela": 0.7891,
+      "RD:IRA": 0.001,
+      "TG:Russia": 0.0004,
+      "TG:Iran": -0.0002,
+      "TG:Syria": 0.0071,
+      "TG:Yemen": -0.0003,
+      "TG:Palestine": -0.0005
+    },
+    "TG:broadcast": {
+      "TW:organic": 0.0026,
+      "RD:organic": 0.0039,
+      "TG:broadcast": 0.0,
+      "TW:IRA": 0.5156,
+      "TW:Iran": 0.5948,
+      "TW:China": 1.9222,
+      "TW:Venezuela": 0.8954,
+      "RD:IRA": -0.0002,
+      "TG:Russia": -0.0001,
+      "TG:Iran": 0.0003,
+      "TG:Syria": 0.0023,
+      "TG:Yemen": 0.0004,
+      "TG:Palestine": 0.0022
+    },
+    "TW:IRA": {
+      "TW:organic": 0.2146,
+      "RD:organic": 0.2067,
+      "TG:broadcast": 0.2442,
+      "TW:IRA": 0.0,
+      "TW:Iran": 0.0049,
+      "TW:China": 0.2838,
+      "TW:Venezuela": 0.0428,
+      "RD:IRA": 0.2545,
+      "TG:Russia": 0.2481,
+      "TG:Iran": 0.2381,
+      "TG:Syria": 0.2943,
+      "TG:Yemen": 0.2363,
+      "TG:Palestine": 0.2173
+    },
+    "TW:Iran": {
+      "TW:organic": 0.328,
+      "RD:organic": 0.3188,
+      "TG:broadcast": 0.3624,
+      "TW:IRA": 0.0061,
+      "TW:Iran": 0.0,
+      "TW:China": 0.1243,
+      "TW:Venezuela": -0.0008,
+      "RD:IRA": 0.3743,
+      "TG:Russia": 0.3669,
+      "TG:Iran": 0.3554,
+      "TG:Syria": 0.4195,
+      "TG:Yemen": 0.3533,
+      "TG:Palestine": 0.3313
+    },
+    "TW:China": {
+      "TW:organic": 0.3786,
+      "RD:organic": 0.3685,
+      "TG:broadcast": 0.416,
+      "TW:IRA": -0.0121,
+      "TW:Iran": -0.0252,
+      "TW:China": 0.0,
+      "TW:Venezuela": -0.0508,
+      "RD:IRA": 0.4289,
+      "TG:Russia": 0.4209,
+      "TG:Iran": 0.4084,
+      "TG:Syria": 0.4776,
+      "TG:Yemen": 0.4061,
+      "TG:Palestine": 0.3821
+    },
+    "TW:Venezuela": {
+      "TW:organic": 0.4327,
+      "RD:organic": 0.4226,
+      "TG:broadcast": 0.4702,
+      "TW:IRA": 0.0398,
+      "TW:Iran": 0.0264,
+      "TW:China": 0.0484,
+      "TW:Venezuela": 0.0,
+      "RD:IRA": 0.4831,
+      "TG:Russia": 0.4751,
+      "TG:Iran": 0.4625,
+      "TG:Syria": 0.532,
+      "TG:Yemen": 0.4603,
+      "TG:Palestine": 0.4362
+    },
+    "RD:IRA": {
+      "TW:organic": 0.0023,
+      "RD:organic": 0.0035,
+      "TG:broadcast": 0.0001,
+      "TW:IRA": 0.5082,
+      "TW:Iran": 0.5866,
+      "TW:China": 1.9037,
+      "TW:Venezuela": 0.8846,
+      "RD:IRA": 0.0,
+      "TG:Russia": -0.0,
+      "TG:Iran": 0.0003,
+      "TG:Syria": 0.0028,
+      "TG:Yemen": 0.0003,
+      "TG:Palestine": 0.002
+    },
+    "TG:Russia": {
+      "TW:organic": 0.0025,
+      "RD:organic": 0.0038,
+      "TG:broadcast": 0.0001,
+      "TW:IRA": 0.5128,
+      "TW:Iran": 0.5917,
+      "TW:China": 1.915,
+      "TW:Venezuela": 0.8912,
+      "RD:IRA": -0.0,
+      "TG:Russia": 0.0,
+      "TG:Iran": 0.0003,
+      "TG:Syria": 0.0025,
+      "TG:Yemen": 0.0004,
+      "TG:Palestine": 0.0022
+    },
+    "TG:Iran": {
+      "TW:organic": 0.0014,
+      "RD:organic": 0.0023,
+      "TG:broadcast": -0.0,
+      "TW:IRA": 0.4874,
+      "TW:Iran": 0.5638,
+      "TW:China": 1.8523,
+      "TW:Venezuela": 0.8547,
+      "RD:IRA": 0.0002,
+      "TG:Russia": 0.0,
+      "TG:Iran": 0.0,
+      "TG:Syria": 0.004,
+      "TG:Yemen": 0.0,
+      "TG:Palestine": 0.0011
+    },
+    "TG:Syria": {
+      "TW:organic": 0.0186,
+      "RD:organic": 0.0219,
+      "TG:broadcast": 0.0086,
+      "TW:IRA": 0.6979,
+      "TW:Iran": 0.7941,
+      "TW:China": 2.361,
+      "TW:Venezuela": 1.1546,
+      "RD:IRA": 0.0061,
+      "TG:Russia": 0.0076,
+      "TG:Iran": 0.0104,
+      "TG:Syria": 0.0,
+      "TG:Yemen": 0.0109,
+      "TG:Palestine": 0.0175
+    },
+    "TG:Yemen": {
+      "TW:organic": 0.0005,
+      "RD:organic": 0.0011,
+      "TG:broadcast": 0.0002,
+      "TW:IRA": 0.462,
+      "TW:Iran": 0.5359,
+      "TW:China": 1.7889,
+      "TW:Venezuela": 0.8178,
+      "RD:IRA": 0.0008,
+      "TG:Russia": 0.0004,
+      "TG:Iran": 0.0,
+      "TG:Syria": 0.0059,
+      "TG:Yemen": 0.0,
+      "TG:Palestine": 0.0004
+    },
+    "TG:Palestine": {
+      "TW:organic": -0.0,
+      "RD:organic": 0.0,
+      "TG:broadcast": 0.0016,
+      "TW:IRA": 0.4172,
+      "TW:Iran": 0.4866,
+      "TW:China": 1.676,
+      "TW:Venezuela": 0.7526,
+      "RD:IRA": 0.0029,
+      "TG:Russia": 0.0021,
+      "TG:Iran": 0.0011,
+      "TG:Syria": 0.0102,
+      "TG:Yemen": 0.0009,
+      "TG:Palestine": 0.0
+    }
+  },
+  "learned_excess_nll": {
+    "TW:organic": {
+      "TW:organic": 0.0,
+      "RD:organic": 0.0729,
+      "TG:broadcast": 0.0656,
+      "TW:IRA": 0.0839,
+      "TW:Iran": 0.09,
+      "TW:China": 0.089,
+      "TW:Venezuela": 0.3612,
+      "RD:IRA": 0.1526,
+      "TG:Russia": 0.1461,
+      "TG:Iran": 0.0777,
+      "TG:Syria": 0.2154,
+      "TG:Yemen": 0.0928,
+      "TG:Palestine": 0.0744
+    },
+    "RD:organic": {
+      "TW:organic": 0.0842,
+      "RD:organic": 0.0,
+      "TG:broadcast": 0.0085,
+      "TW:IRA": 0.1009,
+      "TW:Iran": 0.1418,
+      "TW:China": 0.1179,
+      "TW:Venezuela": 0.2795,
+      "RD:IRA": 0.0779,
+      "TG:Russia": 0.0508,
+      "TG:Iran": 0.0237,
+      "TG:Syria": 0.1264,
+      "TG:Yemen": 0.0224,
+      "TG:Palestine": 0.0415
+    },
+    "TG:broadcast": {
+      "TW:organic": 0.1307,
+      "RD:organic": 0.0311,
+      "TG:broadcast": 0.0,
+      "TW:IRA": 0.1457,
+      "TW:Iran": 0.1868,
+      "TW:China": 0.1557,
+      "TW:Venezuela": 0.3237,
+      "RD:IRA": 0.1114,
+      "TG:Russia": 0.0753,
+      "TG:Iran": 0.0603,
+      "TG:Syria": 0.1505,
+      "TG:Yemen": 0.0574,
+      "TG:Palestine": 0.083
+    },
+    "TW:IRA": {
+      "TW:organic": 0.4186,
+      "RD:organic": 0.4084,
+      "TG:broadcast": 0.3228,
+      "TW:IRA": 0.0,
+      "TW:Iran": 0.0984,
+      "TW:China": 0.0582,
+      "TW:Venezuela": 0.3297,
+      "RD:IRA": 0.6878,
+      "TG:Russia": 0.5719,
+      "TG:Iran": 0.7155,
+      "TG:Syria": 0.8197,
+      "TG:Yemen": 0.458,
+      "TG:Palestine": 0.6252
+    },
+    "TW:Iran": {
+      "TW:organic": 0.4155,
+      "RD:organic": 0.5526,
+      "TG:broadcast": 0.3984,
+      "TW:IRA": 0.0564,
+      "TW:Iran": 0.0,
+      "TW:China": 0.0281,
+      "TW:Venezuela": 0.5546,
+      "RD:IRA": 0.8491,
+      "TG:Russia": 0.7997,
+      "TG:Iran": 0.8299,
+      "TG:Syria": 0.9294,
+      "TG:Yemen": 0.5867,
+      "TG:Palestine": 0.7284
+    },
+    "TW:China": {
+      "TW:organic": 0.5143,
+      "RD:organic": 0.572,
+      "TG:broadcast": 0.4846,
+      "TW:IRA": 0.0518,
+      "TW:Iran": 0.0508,
+      "TW:China": 0.0,
+      "TW:Venezuela": 0.4375,
+      "RD:IRA": 0.9489,
+      "TG:Russia": 0.8203,
+      "TG:Iran": 0.9843,
+      "TG:Syria": 1.03,
+      "TG:Yemen": 0.6824,
+      "TG:Palestine": 0.8678
+    },
+    "TW:Venezuela": {
+      "TW:organic": 0.5179,
+      "RD:organic": 0.3379,
+      "TG:broadcast": 0.3696,
+      "TW:IRA": 0.0403,
+      "TW:Iran": 0.1308,
+      "TW:China": 0.048,
+      "TW:Venezuela": 0.0,
+      "RD:IRA": 0.7037,
+      "TG:Russia": 0.4815,
+      "TG:Iran": 0.879,
+      "TG:Syria": 0.9023,
+      "TG:Yemen": 0.4968,
+      "TG:Palestine": 0.7489
+    },
+    "RD:IRA": {
+      "TW:organic": 0.0655,
+      "RD:organic": -0.0485,
+      "TG:broadcast": -0.0424,
+      "TW:IRA": 0.0477,
+      "TW:Iran": 0.0979,
+      "TW:China": 0.0591,
+      "TW:Venezuela": 0.2096,
+      "RD:IRA": 0.0,
+      "TG:Russia": -0.0116,
+      "TG:Iran": -0.0138,
+      "TG:Syria": 0.0845,
+      "TG:Yemen": -0.0203,
+      "TG:Palestine": 0.012
+    },
+    "TG:Russia": {
+      "TW:organic": 0.1709,
+      "RD:organic": 0.1195,
+      "TG:broadcast": 0.0886,
+      "TW:IRA": 0.2011,
+      "TW:Iran": 0.2119,
+      "TW:China": 0.2171,
+      "TW:Venezuela": 0.404,
+      "RD:IRA": 0.202,
+      "TG:Russia": 0.0,
+      "TG:Iran": 0.1209,
+      "TG:Syria": 0.2079,
+      "TG:Yemen": 0.1269,
+      "TG:Palestine": 0.1295
+    },
+    "TG:Iran": {
+      "TW:organic": 0.0585,
+      "RD:organic": 0.0109,
+      "TG:broadcast": 0.0086,
+      "TW:IRA": 0.1072,
+      "TW:Iran": 0.1346,
+      "TW:China": 0.126,
+      "TW:Venezuela": 0.2946,
+      "RD:IRA": 0.0978,
+      "TG:Russia": 0.0548,
+      "TG:Iran": 0.0,
+      "TG:Syria": 0.1097,
+      "TG:Yemen": 0.01,
+      "TG:Palestine": 0.0048
+    },
+    "TG:Syria": {
+      "TW:organic": 0.1656,
+      "RD:organic": -0.0678,
+      "TG:broadcast": -0.1429,
+      "TW:IRA": 0.1289,
+      "TW:Iran": 0.1966,
+      "TW:China": 0.1753,
+      "TW:Venezuela": 0.259,
+      "RD:IRA": -0.0135,
+      "TG:Russia": -0.0323,
+      "TG:Iran": 0.0419,
+      "TG:Syria": 0.0,
+      "TG:Yemen": 0.0419,
+      "TG:Palestine": 0.0968
+    },
+    "TG:Yemen": {
+      "TW:organic": 0.0701,
+      "RD:organic": 0.0041,
+      "TG:broadcast": 0.0095,
+      "TW:IRA": 0.0927,
+      "TW:Iran": 0.1306,
+      "TW:China": 0.108,
+      "TW:Venezuela": 0.2785,
+      "RD:IRA": 0.0843,
+      "TG:Russia": 0.0491,
+      "TG:Iran": 0.0093,
+      "TG:Syria": 0.1172,
+      "TG:Yemen": 0.0,
+      "TG:Palestine": 0.0071
+    },
+    "TG:Palestine": {
+      "TW:organic": 0.0554,
+      "RD:organic": 0.0126,
+      "TG:broadcast": 0.0127,
+      "TW:IRA": 0.0941,
+      "TW:Iran": 0.1204,
+      "TW:China": 0.1111,
+      "TW:Venezuela": 0.2816,
+      "RD:IRA": 0.0896,
+      "TG:Russia": 0.0582,
+      "TG:Iran": 0.0105,
+      "TG:Syria": 0.1028,
+      "TG:Yemen": 0.0112,
+      "TG:Palestine": 0.0
+    }
+  },
+  "heldout_summary": {
+    "baseline_ks_range": [
+      0.0137,
+      0.0467
+    ],
+    "typical_mean_tau_range": [
+      0.929,
+      1.13
+    ],
+    "reddit_ira_similarity_to_typical_range": [
+      0.8966855820982549,
+      0.9854075175194142
+    ],
+    "covert_data_under_typical_policy_excess_range": [
+      0.3228,
+      1.03
+    ],
+    "typical_data_under_covert_policy_excess_range": [
+      0.0477,
+      0.404
+    ]
+  },
+  "input_sha256": {
+    "tpp_results_v4.json": "b0fae1e95c1acc8a633ff8cce4b040c948a55f9d9a952dc75776a49a99b01de5",
+    "tpp_fig4_diagnostic.json": "2be9ca81cca155df802c922fcad617342fceb9807325396576f8756029f805be"
+  }
+}

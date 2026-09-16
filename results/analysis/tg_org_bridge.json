@@ -1,0 +1,309 @@
+{
+ "groups": {
+  "bridged": {
+   "n": 23
+  },
+  "bridged_name_only": {
+   "n": 4
+  },
+  "verified_unbridged": {
+   "n": 91
+  },
+  "political_pool": {
+   "n": 264
+  }
+ },
+ "bridged_members": [
+  {
+   "channel": "1001326498",
+   "title": "\u062a\u062d\u0648\u0644\u0627\u062a \u0645\u0646\u0637\u0642\u0647",
+   "source": "+comp"
+  },
+  {
+   "channel": "1001976122",
+   "title": "\u062e\u0628\u0631\u06af\u0632\u0627\u0631\u06cc \u062a\u0633\u0646\u06cc\u0645",
+   "source": "+comp"
+  },
+  {
+   "channel": "1002765601",
+   "title": "\u062e\u0628\u0631\u06af\u0632\u0627\u0631\u06cc \u0645\u0647\u0631",
+   "source": "name+comp"
+  },
+  {
+   "channel": "1003559987",
+   "title": "\u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0646\u0638\u0627\u0645\u0649\ud83c\uddee\ud83c\uddf7MILITARY INFO",
+   "source": "+comp"
+  },
+  {
+   "channel": "1005665139",
+   "title": "\u0627\u06cc\u0633\u0646\u0627",
+   "source": "+comp"
+  },
+  {
+   "channel": "1006154443",
+   "title": "\u0628\u06cc\u062f\u0627\u0631\u06cc \u0645\u0644\u062a",
+   "source": "+comp"
+  },
+  {
+   "channel": "1006165084",
+   "title": "\ud83c\udfac \u0628\u06cc\u0633\u06cc\u0645\u0686\u06cc \u0645\u062f\u06cc\u0627",
+   "source": "+comp"
+  },
+  {
+   "channel": "1006212930",
+   "title": "SNN.ir|\u062e\u0628\u0631\u06af\u0632\u0627\u0631\u06cc \u062f\u0627\u0646\u0634\u062c\u0648",
+   "source": "name+comp"
+  },
+  {
+   "channel": "1006487902",
+   "title": "Press TV",
+   "source": "name"
+  },
+  {
+   "channel": "1008407570",
+   "title": "Partisan / \u067e\u0627\u0631\u062a\u06cc\u0632\u0627\u0646",
+   "source": "+comp"
+  },
+  {
+   "channel": "1008931155",
+   "title": "\u0627\u062e\u0628\u0627\u0631 \u062c\u0647\u0627\u062f\u06cc",
+   "source": "+comp"
+  },
+  {
+   "channel": "1020219579",
+   "title": "\ud83c\uddee\ud83c\uddf7Defender IRAN\ud83c\uddee\ud83c\uddf7",
+   "source": "+comp"
+  },
+  {
+   "channel": "1029438506",
+   "title": "\u0627\u0645\u06cc\u0631\u062d\u0633\u06cc\u0646 \u062b\u0627\u0628\u062a\u06cc",
+   "source": "+comp"
+  },
+  {
+   "channel": "1045721468",
+   "title": "\u0639\u0627\u0644\u064e\u0645 \u0633\u06cc\u0627\u0633\u062a|| \u062f\u0627\u0648\u062f \u0645\u062f\u0631\u0633\u06cc\u200c\u06cc\u0627\u0646",
+   "source": "+comp"
+  },
+  {
+   "channel": "1050975747",
+   "title": "\u062a\u0633\u0646\u064a\u0640\ufee3 \ud83c\udf31 Tasnim",
+   "source": "name"
+  },
+  {
+   "channel": "1052025265",
+   "title": "\ud83d\udea9\u0633\u067e\u0627\u0647 \u0633\u0627\u06cc\u0628\u0631\u06cc \u0627\u06cc\u0631\u0627\u0646 \ud83c\uddee\ud83c\uddf7",
+   "source": "+comp"
+  },
+  {
+   "channel": "1056597437",
+   "title": "\u06a9\u0627\u0646\u0627\u0644 \u0633\u067e\u0627\u0647 \u067e\u0627\u0633\u062f\u0627\u0631\u0627\u0646 \ud83c\udff4",
+   "source": "+comp"
+  },
+  {
+   "channel": "1056715753",
+   "title": "UAV | \u062f\u0627\u0646\u0634\u0646\u0627\u0645\u0647 \u067e\u0647\u067e\u0627\u062f",
+   "source": "+comp"
+  },
+  {
+   "channel": "1061342864",
+   "title": "\u0627\u0646\u0635\u0627\u0631\u0627\u0644\u0645\u0647\u062f\u06d2(\u0639\u062c)",
+   "source": "+comp"
+  },
+  {
+   "channel": "1067167003",
+   "title": "\u062f\u0627\u0646\u0634\u0646\u0627\u0645\u0647 \u062f\u0641\u0627\u0639\u06cc",
+   "source": "+comp"
+  },
+  {
+   "channel": "1068487996",
+   "title": "\u062e\u0628\u0631\u06af\u0632\u0627\u0631\u06cc \u0627\u06cc\u0631\u0646\u0627",
+   "source": "+comp"
+  },
+  {
+   "channel": "1081129128",
+   "title": "\u0645\u0642\u0627\u0648\u0645\u062a \u062a\u0627 \u0638\u0647\u0648\u0631",
+   "source": "+comp"
+  },
+  {
+   "channel": "1093360217",
+   "title": "\ud83d\ude80\ud83c\uddee\ud83c\uddf7\u0633\u0644\u0627\u062d \u0645\u062f\u06cc\u0627\ud83c\uddee\ud83c\uddf7\u2708\ufe0f",
+   "source": "+comp"
+  }
+ ],
+ "bridged_vs_verified": {
+  "med_gap_min": {
+   "median_a": 8.567,
+   "median_b": 24.0,
+   "rank_biserial": -0.262,
+   "p": 0.05301
+  },
+  "burstiness": {
+   "median_a": 0.415,
+   "median_b": 0.289,
+   "rank_biserial": 0.366,
+   "p": 0.00684
+  },
+  "sub1min": {
+   "median_a": 0.213,
+   "median_b": 0.193,
+   "rank_biserial": 0.122,
+   "p": 0.36986
+  },
+  "top6h_mass": {
+   "median_a": 0.421,
+   "median_b": 0.455,
+   "rank_biserial": -0.328,
+   "p": 0.01544
+  },
+  "hour_entropy": {
+   "median_a": 2.956,
+   "median_b": 2.835,
+   "rank_biserial": 0.537,
+   "p": 7e-05
+  },
+  "weekday_ratio": {
+   "median_a": 1.015,
+   "median_b": 1.36,
+   "rank_biserial": -0.716,
+   "p": 0.0
+  },
+  "n": {
+   "median_a": 10384.0,
+   "median_b": 5600.0,
+   "rank_biserial": 0.215,
+   "p": 0.11373
+  }
+ },
+ "bridged_vs_political": {
+  "med_gap_min": {
+   "median_a": 8.567,
+   "median_b": 31.15,
+   "rank_biserial": -0.321,
+   "p": 0.01077
+  },
+  "burstiness": {
+   "median_a": 0.415,
+   "median_b": 0.322,
+   "rank_biserial": 0.166,
+   "p": 0.18631
+  },
+  "sub1min": {
+   "median_a": 0.213,
+   "median_b": 0.159,
+   "rank_biserial": 0.204,
+   "p": 0.10518
+  },
+  "top6h_mass": {
+   "median_a": 0.421,
+   "median_b": 0.493,
+   "rank_biserial": -0.515,
+   "p": 4e-05
+  },
+  "hour_entropy": {
+   "median_a": 2.956,
+   "median_b": 2.824,
+   "rank_biserial": 0.534,
+   "p": 2e-05
+  },
+  "weekday_ratio": {
+   "median_a": 1.015,
+   "median_b": 1.198,
+   "rank_biserial": -0.489,
+   "p": 0.0001
+  },
+  "n": {
+   "median_a": 10384.0,
+   "median_b": 2856.0,
+   "rank_biserial": 0.407,
+   "p": 0.0012
+  }
+ },
+ "sync_full2024": {
+  "observed": {
+   "10min": {
+    "n_accounts": 23,
+    "n_weeks": 47,
+    "var_ratio": 1.482,
+    "var_z": 46.7
+   },
+   "1min": {
+    "n_accounts": 23,
+    "n_weeks": 47,
+    "var_ratio": 1.1,
+    "var_z": 35.6
+   }
+  },
+  "ctrl_political_pool": {
+   "10min": {
+    "mean": 1.106,
+    "sd": 0.054,
+    "z_of_observed": 6.9,
+    "n_sets": 100
+   },
+   "1min": {
+    "mean": 1.035,
+    "sd": 0.022,
+    "z_of_observed": 3.0,
+    "n_sets": 100
+   }
+  },
+  "ctrl_all_eligible": {
+   "10min": {
+    "mean": 1.019,
+    "sd": 0.071,
+    "z_of_observed": 6.5,
+    "n_sets": 100
+   },
+   "1min": {
+    "mean": 1.011,
+    "sd": 0.053,
+    "z_of_observed": 1.7,
+    "n_sets": 100
+   }
+  }
+ },
+ "sync_H2_2024_timesplit": {
+  "observed": {
+   "10min": {
+    "n_accounts": 23,
+    "n_weeks": 21,
+    "var_ratio": 1.385,
+    "var_z": 30.2
+   },
+   "1min": {
+    "n_accounts": 23,
+    "n_weeks": 21,
+    "var_ratio": 1.083,
+    "var_z": 21.4
+   }
+  },
+  "ctrl_political_pool": {
+   "10min": {
+    "mean": 1.101,
+    "sd": 0.066,
+    "z_of_observed": 4.3,
+    "n_sets": 100
+   },
+   "1min": {
+    "mean": 1.033,
+    "sd": 0.024,
+    "z_of_observed": 2.1,
+    "n_sets": 100
+   }
+  },
+  "ctrl_all_eligible": {
+   "10min": {
+    "mean": 1.017,
+    "sd": 0.068,
+    "z_of_observed": 5.4,
+    "n_sets": 100
+   },
+   "1min": {
+    "mean": 1.01,
+    "sd": 0.05,
+    "z_of_observed": 1.5,
+    "n_sets": 100
+   }
+  }
+ }
+}

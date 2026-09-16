@@ -1,0 +1,156 @@
+{
+ "cohort": {
+  "n_ira": 96,
+  "n_organic": 643
+ },
+ "cv": "10x5-fold stratified, shared splits",
+ "models": {
+  "OS_full|lr": {
+   "auc_mean": 0.9796,
+   "auc_sd": 0.0025,
+   "auc_min": 0.9748,
+   "auc_max": 0.9834,
+   "n_used": 739,
+   "per_repeat": [
+    0.9808,
+    0.9748,
+    0.9796,
+    0.978,
+    0.981,
+    0.9772,
+    0.9794,
+    0.9819,
+    0.9834,
+    0.9798
+   ]
+  },
+  "OS_full|gbm": {
+   "auc_mean": 0.9856,
+   "auc_sd": 0.0025,
+   "auc_min": 0.9809,
+   "auc_max": 0.9893,
+   "n_used": 739,
+   "per_repeat": [
+    0.9881,
+    0.9893,
+    0.9809,
+    0.984,
+    0.9859,
+    0.9865,
+    0.9844,
+    0.9852,
+    0.9881,
+    0.984
+   ]
+  },
+  "OS_phase_sched|lr": {
+   "auc_mean": 0.9477,
+   "auc_sd": 0.0056,
+   "auc_min": 0.9386,
+   "auc_max": 0.9554,
+   "n_used": 739,
+   "per_repeat": [
+    0.9448,
+    0.9491,
+    0.9542,
+    0.9386,
+    0.9474,
+    0.947,
+    0.9554,
+    0.9452,
+    0.9543,
+    0.9414
+   ]
+  },
+  "OS_phase_sched|gbm": {
+   "auc_mean": 0.9668,
+   "auc_sd": 0.0043,
+   "auc_min": 0.9602,
+   "auc_max": 0.973,
+   "n_used": 739,
+   "per_repeat": [
+    0.9674,
+    0.9644,
+    0.9717,
+    0.9647,
+    0.9655,
+    0.9625,
+    0.972,
+    0.9665,
+    0.973,
+    0.9602
+   ]
+  },
+  "MPNet|lr": {
+   "auc_mean": 0.9798,
+   "auc_sd": 0.0008,
+   "auc_min": 0.9784,
+   "auc_max": 0.9814,
+   "n_used": 739,
+   "per_repeat": [
+    0.9805,
+    0.9797,
+    0.9784,
+    0.9814,
+    0.9797,
+    0.9797,
+    0.9801,
+    0.9796,
+    0.9787,
+    0.9798
+   ]
+  },
+  "EmpiricalPolicy|rf": {
+   "auc_mean": 0.9925,
+   "auc_sd": 0.0006,
+   "auc_min": 0.9911,
+   "auc_max": 0.9933,
+   "n_used": 739,
+   "per_repeat": [
+    0.9925,
+    0.993,
+    0.9924,
+    0.9924,
+    0.9928,
+    0.9923,
+    0.9926,
+    0.9926,
+    0.9911,
+    0.9933
+   ]
+  },
+  "EmpiricalPolicy|lr": {
+   "auc_mean": 0.9802,
+   "auc_sd": 0.0031,
+   "auc_min": 0.9754,
+   "auc_max": 0.9847,
+   "n_used": 739,
+   "per_repeat": [
+    0.9786,
+    0.9847,
+    0.9819,
+    0.98,
+    0.9824,
+    0.9797,
+    0.9843,
+    0.978,
+    0.9771,
+    0.9754
+   ]
+  }
+ },
+ "empirical_policy_schneider_protocol": {
+  "protocol": "25 runs, 1:1 length-matched organics truncated to troll trajectory length, RF(500), stratified 3-fold",
+  "macro_f1_median": 0.9479,
+  "macro_f1_p5_p95": [
+   0.9271,
+   0.9583
+  ],
+  "auc_median": 0.9758,
+  "auc_p5_p95": [
+   0.9681,
+   0.9863
+  ],
+  "n_per_class": 96
+ }
+}

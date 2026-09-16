@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xplat"
+version = "1.0.0"
+description = "Which behavioral traces transfer across platforms? Code for the ICWSM submission on state-linked information operations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "networkx",
+]
+
+[project.optional-dependencies]
+# learned policies and the point-process model (one CUDA device)
+seq = ["torch", "mamba_ssm"]
+# content baselines
+text = ["torch", "transformers"]
+dev = ["pytest"]
+
+[project.scripts]
+xplat = "xplat.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xplat*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
