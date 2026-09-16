@@ -155,17 +155,3 @@ These select public fields from the archived result files, record source
 hashes, verify the archived calculation is reproduced, and write the JSON
 and LaTeX macros in `results/public/`.  `tests/test_public_tpp_figure.py`
 regression-tests them when the archived fits are available.
-
-## Fidelity notes
-
-The experiment modules are the paper's scripts reorganised, not rewritten:
-seeds, random-number consumption order, constants, protocols, and output
-file layouts are unchanged, and `tests/test_library.py` checks the shared
-helpers against values computed with the original functions.  Two things
-were reconstructed because their source was not in the bundle: the audience
-analysis previously read its tweet path and hashtag windows from a helper
-script, and now states them explicitly (windows recorded in
-`results/public/case_summaries_public.json`); and the figure builder's
-plotting step is optional (`--plot-script`).  `xplat-seq-baselines` takes
-`--models`, `--outname`, and `--extra-ops` flags in place of environment
-variables.
